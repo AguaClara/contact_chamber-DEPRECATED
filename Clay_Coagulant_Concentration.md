@@ -25,4 +25,6 @@ q_clay =
 q_plant2 =
 
 c_plant = q_clay * c_clay/q_plant2
+
+c_plant
 ```
