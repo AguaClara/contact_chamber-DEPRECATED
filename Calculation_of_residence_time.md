@@ -11,6 +11,9 @@ DiameterCC=diameter
 LengthCC= 10 * u.inch
 VolumeCC= pc.area_circle(DiameterCC)*LengthCC
 residencet=(VolumeCC/flowrate).to(u.s)
+
 residencet
+
+```                                                                                                                                                                                                                                                                                                                                                                                                              
 
 ```
