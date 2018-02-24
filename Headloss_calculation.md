@@ -1,6 +1,6 @@
 #Headloss across Flocculator
 
-Calculates the headloss due to pressure difference across the coiled flocculator using the Darcy–Weisbach equation
+Calculates the headloss due to pressure difference across the coiled flocculator using the Darcy–Weisbach equation.
 
 ```python
 from aide_design.play import*
