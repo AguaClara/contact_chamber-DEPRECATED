@@ -7,7 +7,7 @@ The purpose of the contact chamber is to promote a greater probability of intera
 * Canaan Delgado (cad296@cornell.edu)
 
 ## Reports and Presentations
-* Fall 2017
+* Fall 2017 
   - [Fall 2017 Report](contact_chamber/contact-chamber-fall.pdf)
   - [Fall 2017 Symposium](https://docs.google.com/presentation/d/1nvbiFrPUaDl7K3UWOjanzKeLPm4Z0cM3KG_kbOhHZSE/edit?usp=sharing)
   - [Fall 2017 Final Presentation](https://docs.google.com/presentation/d/1sUqdA37QAl6RXZHFIsKfZbOixko4K1kw2B_o7oWckBo/edit?usp=sharing)
