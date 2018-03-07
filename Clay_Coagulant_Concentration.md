@@ -1,6 +1,6 @@
 #Coagulant and Clay Stock Concentration Calculations
 Calculates the concentration of clay and coagulant in the plant
-given the stock concentrations
+given the stock concentrations. 
 
 ##Coagulant Stock Concentration
 

@@ -18,12 +18,12 @@ q_plant = 180 * u.milliliter/u.min  #Flow rate in sed tank
 q_plant.to(u.milliliter/u.sec)
 
 c_plant = (q_coag * c_coag/q_plant).to(u.mg/u.liter)
-#we should try to make this 1 mg/L
+#we should try to make this 1.5 mg/L to match the High G and HRS setup
 ```
 
 #Calculate coagulant stock concentrations
 ```python
-c_plant = 1 * u.milligram/u.liter
+c_plant = 1.5 * u.milligram/u.liter
 q_plant = 180 * u.milliliter/u.min
 q_coag = 5 * u.milliliter/u.min
 c_coag = (c_plant*q_plant)/q_coag
