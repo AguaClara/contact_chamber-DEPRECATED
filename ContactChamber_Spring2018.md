@@ -71,21 +71,12 @@ Figure: Schematic of experimental setup. The PID controller adjusts the clay pum
     - Polyaluminum chloride (PACl) coagulant (70.9 g/L)
 
 ### Experimental Apparatus
-The contact chamber was constructed with a length that is 10 times the diameter to model the dimensions of the turbulent jet stream. The turbulent jet creates eddies that recirculate near the pipe walls. By minimizing contact with the walls of the contact chamber, the amount of coagulant that adheres to the walls instead of the clay particles can be minimized.
+The contact chamber was constructed with a length that is 10 times the diameter to model the dimensions of the turbulent jet stream ([Tsang et al. 2017](contact_chamber/contact-chamber-fall.pdf)). The turbulent jet creates eddies that recirculate near the pipe walls. By minimizing contact with the walls of the contact chamber, the amount of coagulant that adheres to the walls instead of the clay particles can be minimized.
 
 ![Contact_chamber](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/contact_chamber.png?raw=true)
+Figure: The redesigned contact chamber, with a length that is ten times the diameter, to model the dimensions of the turbulent jet.
 
-* Design (calculations, constraints)
 
-  $\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
-* Schematic (label parts)
-
-  <img src="https://github.com/jillianwhiting/Jillian-Whiting/blob/master/Images/IMG_0009.jpg?raw=true" height=250 width=200>
-
-* Image (from lab; label parts)
-* Materials (dimensions, materials)
-* Complications in construction
-* If already constructed: write a brief summary of important constraints, include any revisions to apparatus, also reference the prior report where construction is described
 
 ### Procedure
 PID control is used to control the clay pump to reach the influent turbidity at 10. Clay stock solution was prepared to make sure the pump sped of the clay pump not to be too fast, if it was too fast, it will cause the change in upflow velocity constantly as the PID control will change the pump speed according to the influent turbidity.The concentration of the clay pump was determined to be 0.4g/L. The actual contribution of clay solution to upflow speed is almost negligible, since the microbore tubing was used. Water pump speed was set constant at 76 RPM to keep the upflow velocity at 2mm/s. The coagulant dose was set by a manual input to reach an effluent turbidity of approximately 2 NTU. The concentration of coagulant stock is 0.1418g/L. The pump speed now is 20 RPM with microbore tube, but both concentration and pump speed are subject to change as the system develops.
