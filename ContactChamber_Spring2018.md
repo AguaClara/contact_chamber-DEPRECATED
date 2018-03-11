@@ -124,7 +124,7 @@ With the newly designed sedimentation tube and contact chamber, it is expected t
 ## Bibliography
 Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
 
-<!-- # Manual -->
+# Manual
 <!-- The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team. -->
 
 ## Fabrication Details
@@ -148,15 +148,15 @@ The contact chamber was fabricated using a 25.4 cm (10 in) clear polycarbonate p
 3. Track changes in the effluent turbidity.
 
 ### Cleaning Procedure
-1. Run Water through the system until the floc blanket escapes the system.Turn off clay pump using ProCoDA.
-2. Turn off all three pumps: Coagulant, Clay, and Water.
-3. Close valves to raw water and waste streams.
+1. Run Water through the system until the floc blanket escapes the system.
+2. Turn off clay pump using ProCoDA.
+3. Turn off all three pumps: Coagulant, Clay, and Water.
+4. Close valves to raw water and waste streams.
 
 <!-- ## Experimental Checklist -->
 <!-- Another potential section could include a list of things that you need to check before running an experiment. -->
 
 ## ProCoDA Method File
-
 
 ### States
 * OFF
