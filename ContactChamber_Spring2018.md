@@ -3,7 +3,8 @@
 #### March 9, 2018
 
 ## Abstract
-Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max)
+<!-- Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max) -->
+The introduction of coagulant into turbid water causes collisions of suspended solids particles with coagulant nanoparticles, which promotes the growth of flocs. However, a large portion of the coagulant dose adheres to pipe walls rather than influent particles, requiring a higher than necessary coagulant dose to account for this effect. In order to minimize coagulant wastage, an apparatus called the contact chamber was fabricated to increase collisions between influent particles and coagulant. The Spring 2018 Contact Chamber team will analyze the performance of the new contact chamber and new sedimentation tank by comparing influent and effluent turbidity in experiments with and without a contact chamber.
 
 ## Introduction
 Explain how the completion of your challenge will affect AguaClara and the mission of providing safe drinking water (or sustainable wastewater treatment!). If this is a continuing team, how will your contribution build upon previous research? What needs to be further discovered or defined? If this is a new team, what prompted the inclusion of this team?
@@ -122,7 +123,15 @@ Over the next several weeks, the sedimentation tube will be redesigned with smal
 With the newly designed sedimentation tube and contact chamber, it is expected that results will be more consistent. It is hypothesized that ensuring the formation of the floc blanket during each experiment will improve results, thereby reducing the effluent turbidity. Another future task is measuring the headloss across the flocculator to quantify the impact of coagulant adhering to the walls of the flocculator. The contact chamber theoretically increases the probability of collisions between the clay particles and coagulant before the mixture enters the flocculation system. As a result, it is predicted that the contact chamber will allow the clay particles more time to interact with the coagulant, which will decrease the amount of free coagulant that adheres to the walls of the flocculator, and therefore decrease headloss across the flocculator.
 
 ## Bibliography
-Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
+Balik, Y., & Aydin, S. (2015). Coagulation/flocculation optimization and sludge production for pre-treatment of paint industry wastewater. Desalination and Water Treatment, 57(27)
+
+Bratby J. (2006) Coagulation and Flocculation in Water and wastewater Treatment. IWA Publishing, London, Seattle.
+
+EPA (2018, January). Conventional Treatment.
+
+Frederick L. Hart, Journal (Water Pollution Control Federation), Improved Hydraulic Performance of Chlorine Contact Chambers) Dec 1979.
+
+Jiang, J., “The role of coagulation in water treatment” (2015, February 19). 
 
 # Manual
 <!-- The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team. -->
