@@ -13,4 +13,4 @@ The purpose of the contact chamber is to promote a greater probability of intera
   - [Fall 2017 Final Presentation](https://docs.google.com/presentation/d/1sUqdA37QAl6RXZHFIsKfZbOixko4K1kw2B_o7oWckBo/edit?usp=sharing)
 * Spring 2018
   - [Spring 2018 Report](https://github.com/AguaClara/contact_chamber/blob/master/ContactChamber_Spring2018.md)
-  - [Spring 2018 Presentation](https://docs.google.com/presentation/d/1KrNp-n18e77Mr_6DbSOoVp4apJyyxYiUmAS8KpJo6Ek/edit?usp=sharing)
+  - [Spring 2018 Symposium](https://docs.google.com/presentation/d/1KrNp-n18e77Mr_6DbSOoVp4apJyyxYiUmAS8KpJo6Ek/edit?usp=sharing)
