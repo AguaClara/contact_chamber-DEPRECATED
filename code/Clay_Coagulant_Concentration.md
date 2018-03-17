@@ -8,8 +8,8 @@ given the stock concentrations
 from aide_design.play import*
 
 coag_stock = 70.9 * u.grams / u.liters
-coag_vol = (10 * u.milliliter).to(u.liter)
-water_vol = 5 * u.liter
+coag_vol = (0.8 * u.milliliter).to(u.liter)
+water_vol = 1 * u.liter
 
 c_coag = (coag_stock * coag_vol)/(water_vol)
 
