@@ -1,13 +1,14 @@
 ```python
 from aide_design.play import*
 upflowv= 2 * u.millimeter / u.s
-diameter= 1 * u.inch
-Area= pc.area_circle(diameter)
-flowrate= (upflowv * Area).to(u.mL/u.s)
+tankdiameter= 1 * u.inch
+Areatank= pc.area_circle(tankdiameter)
+flowrate= (upflowv * Areatank).to(u.mL/u.s)
 flowrate
-DiameterCC=diameter
+DiameterCC= 3 * u.inch
 LengthCC= 10 * u.inch
-VolumeCC= pc.area_circle(DiameterCC)*LengthCC
+Area= pc.area_circle(DiameterCC)
+VolumeCC= (Area*LengthCC).to(u.mL)
 residencet=(VolumeCC/flowrate).to(u.s)
 residencet
 ```
