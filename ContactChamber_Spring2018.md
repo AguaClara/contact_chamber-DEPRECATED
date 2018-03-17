@@ -131,7 +131,7 @@ EPA (2018, January). Conventional Treatment.
 
 Frederick L. Hart, Journal (Water Pollution Control Federation), Improved Hydraulic Performance of Chlorine Contact Chambers) Dec 1979.
 
-Jiang, J., “The role of coagulation in water treatment” (2015, February 19). 
+Jiang, J., “The role of coagulation in water treatment” (2015, February 19).
 
 # Manual
 <!-- The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team. -->
