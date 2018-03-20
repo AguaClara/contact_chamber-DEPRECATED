@@ -2,39 +2,120 @@
 #### Cheer Tsang, Yeonjin Yun, Canaan Delgado
 #### March 9, 2018
 
+<div class="alert alert-block alert-danger">
+Please do not delete my comments. Address them for the next submission and then I will use the comments to check for corrections. If you disagree with my comments, just add one below mine.
+</div>
+
 ## Abstract
 <!-- Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max) -->
 The introduction of coagulant into turbid water causes collisions of suspended solids particles with coagulant nanoparticles, which promotes the growth of flocs. However, a large portion of the coagulant dose adheres to the flocculator walls rather than influent particles, requiring a higher than necessary coagulant dose to account for this effect. In order to minimize coagulant wastage, an apparatus called the contact chamber was fabricated to increase the probability of collisions between the influent particles and coagulant by increasing residence time. The Spring 2018 Contact Chamber team analyzed the performance of the newly redesigned contact chamber by comparing influent and effluent turbidity in experiments with and without the contact chamber.
 
+<div class="alert alert-block alert-danger">
+Why wastage and not just waste?
+
+Does coagulant cause collisions? Or does it promote particles sticking together once they've collided?
+</div>
+
 ## Introduction
-In the AguaClara plants, during periods of low precipitation, the flow rate of water through the plant is very low. At such low flow rates, the coagulant concentration through the plant becomes very high in comparison with the volume of water. The excess coagulant that does not adhere to the influent particles instead attaches to the walls of the flocculator, resulting in coagulant buildup within the flocculator. This issue also occurs in low flow rate systems, such as the 1 L/s plants. In order to minimize the amount of coagulant lost to the flocculator walls, the amount of coagulant that adheres to the influent particles must be maximized. One possible solution for this is adding a contact chamber, which would allow the coagulant to mix with the influent prior to entering the flocculator. Reducing the amount of coagulant that adheres to the walls of the flocculator would reduce the amount of coagulant wasted, thereby reducing plant operation costs. 
+In the AguaClara plants, during periods of low precipitation, the flow rate of water through the plant is very low. At such low flow rates, the coagulant concentration through the plant becomes very high in comparison with the volume of water. The excess coagulant that does not adhere to the influent particles instead attaches to the walls of the flocculator, resulting in coagulant buildup within the flocculator. This issue also occurs in low flow rate systems, such as the 1 L/s plants. In order to minimize the amount of coagulant lost to the flocculator walls, the amount of coagulant that adheres to the influent particles must be maximized. One possible solution for this is adding a contact chamber, which would allow the coagulant to mix with the influent prior to entering the flocculator. Reducing the amount of coagulant that adheres to the walls of the flocculator would reduce the amount of coagulant wasted, thereby reducing plant operation costs.
+
+<div class="alert alert-block alert-danger">
+Well written, but if the issue is too much coagulant comparatively to the low flow rate of water, then why not just adjust the dose of coagulant? Isn't that what the chemical dose controller is supposed to do? Regulate the coagulant dosing based on flow rate?
+
+The portion explaining that it's better to have clay and coagulant bind before the coagulant enters the flocculator and sticks to the walls.
+
+Is a contact chamber currently in use in AguaClara plants?
+
+Include information on your experiments here as well.
+</div>
 
 ## Literature Review and Previous Work
 Coagulation is the process by which smaller particles collide and adhere to each other to form larger, more dense particles known as flocs. This process is generally introduced before the filtration process to allow maximum aid in removing solid sediments in water. In the late 1940’s, a new theory was developed that distinguished two modes of removing colloidal impurities. This process has been widely known to be cost-effective and has revolutionized the water treatment process (Balik and Aydin, 2015).
 
+<div class="alert alert-block alert-danger">
+Mention that flocculation occurs before sedimentation as well as filtration.
+
+Give the new process a name in the paragraph above even though you discuss it in detail below.
+</div>
+
 The process, known as double layer compression, describes the overcoming of the repulsive forces between the particles to adhere together and precipitate. This process would later be later known as coagulation (Jiang, 2015). Stable particles of clay and organic substances found in influent raw water are negatively charged, causing particles to repel each other and remain suspended in solution. As positively charged coagulant is added to the water, the negative charges are neutralized, allowing the particles to adhere together into aggregations called “microflocs."
+
+<div class="alert alert-block alert-danger">
+Is the (Jiang, 2015) source, the source for the entire paragraph? If so, then put the intext citation at the end.
+</div>
 
 The coagulants that are normally used for wastewater treatment tend to be predominantly inorganic salts of aluminum or iron, alum in particular being the most ubiquitous. When these coagulants are introduced to water, the aluminum ions have a tendency to hydrolyze in an unstable manner, eventually forming “a range of metal hydrolysis species.” AguaClara plants utilize polyaluminum chloride (PACl), a more commercially available polymeric aluminum coagulant.
 
+<div class="alert alert-block alert-danger">
+Wastewater implies toilet wastes, use the term potable water or drinking water.
+</div>
+
 In a study of coagulation kinetics, batch experiments were conducted to examine the different ways that PACl and alum destabilize particles and the different factors that affect how quickly particles are destabilized. At low temperatures, the already hydrolyzed PACl can be advantageous over the traditional coagulants because temperature fluctuation has less of an impact on the coagulant efficacy. Since previous research showed that the rate of collisions between particles is slower than the rate of particle destabilization, particle destabilization is the rate-determining step. Therefore, the efficiency of the coagulation process depends on the rate of particle destabilization, and as a result, optimizing the particle destabilization rate would have the greatest impact on coagulant efficacy.
+
+<div class="alert alert-block alert-danger">
+Who did these experiments? What is your source?
+
+What does it mean for the PACl to be hydrolyzed?
+
+Wouldn't collisions be the rate-determining step because it is slower? I am confused as to why the quicker process is the rate-determining step.
+</div>
 
 After clay and water are added, the rapid-mix chamber then ejects coagulant into the system, beginning the process of ‘precipitate enmeshment,’ also known as flocculation. The rapid mixing stage can be considered one of the most vital components of the coagulation-flocculation processes. At this stage, primary flocs tend to form and destabilization reactions occur. (Jiang, 2015). The smaller particles are physically enmeshed by the metal precipitates previously introduced. This generally occurs when the precipitates are beginning to form and settle (Bratby, 2006).
 
+<div class="alert alert-block alert-danger">
+What is the rapid-mix chamber? Is that the contact chamber?
+</div>
+
 Parameters, such as pH, temperature, alkalinity, composition of precipitates and mixing speeds can impact how effective the coagulation process is. It has been researched that alum coagulant performs at its maximum capacity when immersed within a solution of pH levels between 6 and 7. Coagulant, when introduced to high alkalinity water, may need to be used in large amounts to stabilize pH at an optimal level. This is important because if an insufficient amount of coagulant is administered, many problems can occur, such as the pipe corrosion, pH destabilization and the formation of residues that can clog pipes. Another parameter that can dictate the quality of the coagulation-flocculation process is temperature. Lower temperature waters tend to “decrease the hydrolysis and precipitation kinetics” (Hart).
+
+<div class="alert alert-block alert-danger">
+Can you regulate pH separately so that you do not require as much coagulant? (Coagulant is expensive)
+
+What residues clog the pipes.
+</div>
 
 It has been determined through flow and tracer transport methods that vorticity field is the key parameter to use to discern areas of jet flow and recirculation zones within the contact chamber. The vorticity gradient and the flexion product shed the most mathematical insights on the topic of differentiating recirculation and jet zones, as well as fluid to fluid flow separations. From this, the team will have a mathematical analysis of the validity behind the qualitative results. The ratio of t90/t10, or the Morrill index, describes the travel time of 10% and 90% of the cumulative normalized tracer concentration observed at the outlet of the contact chamber.
 
+<div class="alert alert-block alert-danger">
+Revise first sentence for readability.
+
+Where is your source for this paragraph?
+
+Lots of jargon here that you need to explain/define: vorticity field, flexion, jet zones
+
+Why do all of those things matter?
+</div>
+
 The basis with which the indices were characterized was classified as a "black box" analysis since the mechanisms of mixing within the contact chamber were overlooked or not analyzed (Demirel and Aral, 2016). The objective of this experimental analysis of behavior of the conservative tracer in the contact chamber is to note the mixing of the chemical within recirculation zones where the tracer is briefly retained before release, as well as the interactions between the jet zones and recirculation zones. Identifying these interactions were important because they both played a role in the aggregate mixing process. The difficulties posed in this analysis were the monitoring methods utilized in literature. The index bases were derived by measurements made only at specific outlet points throughout the system. There was no data highlighting the mechanics of mixing within the contact chamber itself.
+
+<div class="alert alert-block alert-danger">
+Are the jet zones and recirculation zones not in the contact chamber?
+
+I am a bit lost as to what this all means.
+
+What is your source for this?
+</div>
 
 ## Methods
 ### Experimental Design
 
 The experiment setup was identical to the other Particle Removal subteams, High G Flocculation and High Rate Sedimentation, to standardize results.
 
+<div class="alert alert-block alert-danger">
+Consider "experimental setup" rather than "experiment setup"
+
+Identical implies being exactly the same? Is it exactly the same or similar? If similar, how is it different
+</div>
+
 ![Schematic](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/Schematic.jpg?raw=true)
 
 Figure: The experiment setup includes a contact chamber, a coiled flocculator, and a sedimentation tube.
 
+<div class="alert alert-block alert-danger">
+What is the figure number? (issue propogates throughout report)
+
+Great figure, very clear
+</div>
 
 ![Complete_setup](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/Complete_setup.jpg?raw=true)
 
@@ -53,9 +134,19 @@ The experiment setup models the flow of water through a plant on a lab scale (Fi
 
 The influent turbidity was controlled using a Proportional-Integral-Derivative (PID) controller on ProCoDA. The PID controller uses a feedback response loop to maintain the influent turbidity. The target influent turbidity was set to 10 NTU, and the values of P, i, and D were set to 0.5, 0.25, and 0, respectively.
 
+<div class="alert alert-block alert-danger">
+Also define ProCoDA acronym
+
+How did you select the NTU, P, i, and D values. If they were assumed then just say from where. Also what do P, i, and D mean?
+</div>
+
 ![PIDcontrol](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/PIDcontrol.png?raw=true)
 
 Figure: Schematic of experimental setup. The PID controller adjusts the clay pump speed to maintain an influent turbidity of 10 NTU. The water pump and coagulant pump were kept constant at 76 rpm and 20 rpm, respectively.
+
+<div class="alert alert-block alert-danger">
+How did you know the speeds of 76 rpm and 20 rpm? Consider referencing these calculations (which you should put in the manual)
+</div>
 
 ### Materials
 
@@ -87,6 +178,11 @@ Figure: Schematic of experimental setup. The PID controller adjusts the clay pum
     - Kaolinite clay
     - Polyaluminum chloride (PACl) coagulant (70.9 g/L)
 
+
+<div class="alert alert-block alert-danger">
+Consider moving the details of the materials list into the manual section and just keeping basics here. (Not a hard and fast rule though.)
+</div>
+
 ### Experimental Apparatus
 The contact chamber was constructed with a length that is 10 times the diameter to model the dimensions of the turbulent jet stream ([Tsang et al. 2017](https://github.com/AguaClara/contact_chamber/blob/master/contact-chamber-fall.pdf)). The turbulent jet creates eddies that recirculate near the pipe walls. By minimizing contact with the walls of the contact chamber, the amount of coagulant that adheres to the walls instead of the clay particles can be minimized.
 
@@ -99,28 +195,80 @@ Figure: The redesigned contact chamber, with a length that is ten times the diam
 ### Procedure
 To maintain an upflow velocity in the sedimentation tube of 2 mm/s, the water pump was kept constant at 76 rpm, while the flow rate contributions of the clay and coagulant were determined to be negligible, due to the low flow rate through the microbore tubing. PID control was used to vary the speed of the clay pump to reach the target influent turbidity of 10 NTU. The clay stock solution was diluted, so that the clay pump speed could be reduced to minimize the flow rate contribution of the clay pump. The concentration of the clay stock was 0.4 g/L. The coagulant dose was set by manual input to 20 RPM. The coagulant stock and pump speed were fine-tuned to achieve an effluent turbidity of approximately 2 NTU. The concentration of coagulant stock is currently 0.1418 g/L. Both the coagulant stock concentration and pump speed are subject to change as the system is altered.
 
+<div class="alert alert-block alert-danger">
+Keep tenses consistent
+
+Where are you getting these values from?
+</div>
+
 Before running an experiment, all valves were opened (raw water, floc weir outlet, and the waste stream outlet). The PID set point was adjusted from the OFF state to ON state, initiating the clay pump to feed the clay stock solution into the system. The water pump and coagulant pump were switched on and set to pre-determined pump speeds. The influent turbidity was allowed to reach its target turbidity of 10 NTU, and changes in the effluent turbidity were observed.
 
 ## Results and Analysis
 
 Prior to running experiments, a red dye test was conducted to observe the fluid dynamics of the coagulant dose in the contact chamber. Red dye was added to the coagulant stock, which tracked the motion of coagulant in the contact chamber.
+
+<div class="alert alert-block alert-danger">
+Did the test have both red dye and coagulant?
+</div>
+
 It was observed that there was more recirculation in the contact chamber than expected, which may have caused a significant portion of the coagulant to adhere to the walls of the contact chamber, rather than interact with the clay particles in the water. It is hypothesized that the slow flow rate of the coagulant injection into the contact chamber did not allow the coagulant to mix well, which may have contributed to the poor performance of the contact chamber in previous experiments.
+
+<div class="alert alert-block alert-danger">
+How much recirculation was expected and how did you quantify that?
+
+What is recirculation?
+
+Did you observe coagulant sticking to the walls?
+
+Why would the slow flow rate of the coagulant injection affect the mixing?
+</div>
 
 To reduce the high recirculation in the contact chamber, the team decided to change the orientation of the contact chamber. The contact chamber was previously oriented in the upflow direction, with the coagulant injection and clay mixture flowing into the contact chamber from the bottom. The contact chamber was inverted, and a red dye test was conducted with the coagulant and clay mixture entering the contact chamber from the top.
 
 ![5hoursexperiment](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/Experiment%20Result%20after%205%20hours.png?raw=true)
 Figure: The influent and effluent turbidimeter after an experiment runtime of 5 hours.
 
+<div class="alert alert-block alert-danger">
+Is this a continuation of the red dye test or a new test?
+</div>
+
 The experiment was run for 5 hours to observe the formation of the floc blanket in the sedimentation tube. The results differed significantly from the results of previous experiments run in Fall 2017. All parameters were held consistent to the parameters used in the Fall 2017 experiments, except for the longer experiment runtime. It was observed that the effluent turbidity did not decrease sufficiently. Some possible sources of errors were identified, and possible solutions were attempted. The first noticeable issue was the growth of algae on the sides of the sedimentation tube, which may have had an impact on the effluent turbidity. To solve this problem, the sedimentation tube was cleaned with pipe brushes and bleach. Another possible source of error is the lack of a floc blanket in the sedimentation tube. In the Fall 2017 experiments, the sedimentation tube was not cleaned out in between experiments, which allowed a floc blanket to form after repeated trials. In order to standardize results, the sedimentation tube was drained in between each experiment. However, since the influent turbidity very low, at 10 NTU, it was time-consuming to form a new floc blanket for each experiment. Therefore, the sedimentation tank was redesigned with smaller dimensions to allow the floc blanket to form in a shorter time period. Shortening the time taken to form the floc blanket increased the efficiency of experiments.
 
+<div class="alert alert-block alert-danger">
+Include your hypotheses in the introduction!
+
+What results did the Fall 2017 team get? (Not mentioned in the previous work section)
+
+Did algae grow in 5 hours?
+
+Why does a floc blanket form only when it is not cleaned?
+
+Why not increase turbidity is the low turbidity was causing slow floc blanket formation?
+
+There is a lot of good stuff in this seciton but it is mostly results with not enough analysis.
+</div>
 
 ## Conclusions
 
 From the series of tests to see the efficiency of contact chamber and the sedimentation tank in the system, it is concluded that the change in design might be required in both units. So, the next steps for the team will be conduct more research on fluid dynamics including the particles as well as identify the relationship between the residence time and particle removal.
 
+<div class="alert alert-block alert-danger">
+Do you have enough results to speak to efficiency of sedimentation tank?
+
+This is very vague. What did you conclude about the design of your apparatus? What changes need to be made?
+</div>
+
 ## Future Work
 Over the next several weeks, the sedimentation tube will be redesigned with smaller dimensions.
 With the newly designed sedimentation tube and contact chamber, it is expected that results will be more consistent. It is hypothesized that ensuring the formation of the floc blanket during each experiment will improve results, thereby reducing the effluent turbidity. Another future task is measuring the headloss across the flocculator to quantify the impact of coagulant adhering to the walls of the flocculator. The contact chamber theoretically increases the probability of collisions between the clay particles and coagulant before the mixture enters the flocculation system. As a result, it is predicted that the contact chamber will allow the clay particles more time to interact with the coagulant, which will decrease the amount of free coagulant that adheres to the walls of the flocculator, and therefore decrease headloss across the flocculator.
+
+<div class="alert alert-block alert-danger">
+For the next experiments you expect more consistency? but do you expect them to be more favorable in terms of efficiency?
+
+avoid passive voice
+
+This is the first time you bring up headloss across the flocculator. No new ideas in the conclusion or future work sections!
+</div>
 
 ## Bibliography
 Balik, Y., & Aydin, S. (2015). Coagulation/flocculation optimization and sludge production for pre-treatment of paint industry wastewater. Desalination and Water Treatment, 57(27)
@@ -139,6 +287,10 @@ Jiang, J., “The role of coagulation in water treatment” (2015, February 19).
 ## Fabrication Details
 <!-- Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions. -->
 The contact chamber was fabricated using a 25.4 cm (10 in) clear polycarbonate pipe. PVC caps were attached on the ends of the pipe using PVC cement to waterproof the contact chamber. Threaded push-to-connect connections were attached to each end of the contact chamber to allow tubing to be attached.
+
+<div class="alert alert-block alert-danger">
+Maybe include a photo?
+</div>
 
 <!-- ## Special Components -->
 <!-- If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation. -->
@@ -206,7 +358,7 @@ $u$, $w$: x-velocity, z-velocity components -->
 
 ###Coagulant and Clay Stock Concentration Calculations
 Calculates the concentration of clay and coagulant in the plant
-given the stock concentrations.  
+given the stock concentrations.
 
 ####Coagulant Stock Concentration
 ```python
@@ -267,8 +419,6 @@ VolumeCC= pc.area_circle(DiameterCC)*LengthCC
 residencet=(VolumeCC/flowrate).to(u.s)
 residencet
 ```
-
-
 
 ```python
 To convert the document from markdown to pdf
