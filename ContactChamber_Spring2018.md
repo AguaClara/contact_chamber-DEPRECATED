@@ -8,7 +8,7 @@ Please do not delete my comments. Address them for the next submission and then 
 
 ## Abstract
 <!-- Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max) -->
-The introduction of coagulant into turbid water causes collisions of suspended solids particles with coagulant nanoparticles, which promotes the growth of flocs. However, a large portion of the coagulant dose adheres to the flocculator walls rather than influent particles, requiring a higher than necessary coagulant dose to account for this effect. In order to minimize coagulant wastage, an apparatus called the contact chamber was fabricated to increase the probability of collisions between the influent particles and coagulant by increasing residence time. The Spring 2018 Contact Chamber team analyzed the performance of the newly redesigned contact chamber by comparing influent and effluent turbidity in experiments with and without the contact chamber.
+When coagulant is introduced to turbid water, coagulant nanoparticles attach to suspended solids in the water. As more collisions occur, these particles continue to adhere to each other, promoting the growth of flocs. However, a substantial portion of the coagulant dose adheres to the flocculator walls rather than influent particles, requiring a higher than necessary coagulant dose to compensate for this effect. In order to minimize the amount of coagulant wasted, an apparatus called the contact chamber was fabricated to increase the probability of collisions between the influent particles and coagulant by increasing residence time. The Spring 2018 Contact Chamber team analyzed the performance of the newly redesigned contact chamber by analyzing the headloss across the flocculator with and without the contact chamber.
 
 <div class="alert alert-block alert-danger">
 Why wastage and not just waste?
@@ -18,6 +18,8 @@ Does coagulant cause collisions? Or does it promote particles sticking together 
 
 ## Introduction
 In the AguaClara plants, during periods of low precipitation, the flow rate of water through the plant is very low. At such low flow rates, the coagulant concentration through the plant becomes very high in comparison with the volume of water. The excess coagulant that does not adhere to the influent particles instead attaches to the walls of the flocculator, resulting in coagulant buildup within the flocculator. This issue also occurs in low flow rate systems, such as the 1 L/s plants. In order to minimize the amount of coagulant lost to the flocculator walls, the amount of coagulant that adheres to the influent particles must be maximized. One possible solution for this is adding a contact chamber, which would allow the coagulant to mix with the influent prior to entering the flocculator. Reducing the amount of coagulant that adheres to the walls of the flocculator would reduce the amount of coagulant wasted, thereby reducing plant operation costs.
+
+
 
 <div class="alert alert-block alert-danger">
 Well written, but if the issue is too much coagulant comparatively to the low flow rate of water, then why not just adjust the dose of coagulant? Isn't that what the chemical dose controller is supposed to do? Regulate the coagulant dosing based on flow rate?
@@ -30,7 +32,7 @@ Include information on your experiments here as well.
 </div>
 
 ## Literature Review and Previous Work
-Coagulation is the process by which smaller particles collide and adhere to each other to form larger, more dense particles known as flocs. This process is generally introduced before the filtration process to allow maximum aid in removing solid sediments in water. In the late 1940’s, a new theory was developed that distinguished two modes of removing colloidal impurities. This process has been widely known to be cost-effective and has revolutionized the water treatment process (Balik and Aydin, 2015).
+The drinking water treatment processes are coagulation and flocculation, sedimentation, filtration, and disinfection. Coagulation is the process by which smaller particles collide and adhere to each other to form larger, more dense particles known as flocs. The coagulation and flocculation process allows maximum aid in removing sediment particles in water before the filtration process. In the late 1940’s, a new theory was developed that distinguished two modes of removing colloidal impurities. This process has been widely known to be cost-effective and has revolutionized the water treatment process (Balik and Aydin, 2015).
 
 <div class="alert alert-block alert-danger">
 Mention that flocculation occurs before sedimentation as well as filtration.
@@ -44,7 +46,7 @@ The process, known as double layer compression, describes the overcoming of the 
 Is the (Jiang, 2015) source, the source for the entire paragraph? If so, then put the intext citation at the end.
 </div>
 
-The coagulants that are normally used for wastewater treatment tend to be predominantly inorganic salts of aluminum or iron, alum in particular being the most ubiquitous. When these coagulants are introduced to water, the aluminum ions have a tendency to hydrolyze in an unstable manner, eventually forming “a range of metal hydrolysis species.” AguaClara plants utilize polyaluminum chloride (PACl), a more commercially available polymeric aluminum coagulant.
+The coagulants that are normally used for drinking water treatment tend to be predominantly inorganic salts of aluminum or iron, alum in particular being the most ubiquitous. When these coagulants are introduced to water, the aluminum ions have a tendency to hydrolyze in an unstable manner, eventually forming “a range of metal hydrolysis species.” AguaClara plants utilize polyaluminum chloride (PACl), a more commercially available polymeric aluminum coagulant.
 
 <div class="alert alert-block alert-danger">
 Wastewater implies toilet wastes, use the term potable water or drinking water.
@@ -96,10 +98,30 @@ I am a bit lost as to what this all means.
 What is your source for this?
 </div>
 
+In previous semesters, the contact chamber teams in AguaClara have assessed the efficacy of the addition of a contact chamber before flocculation in order to promote greater collision frequency between the coagulant nanoparticles and the suspended solids. This method increased residence times and promoted thorough mixing of the coagulant so that there is a uniform level of treatment in the chamber.
+
+The contact chamber was modified from the previous semester's design. The contact chamber has a diameter of 2.54 cm (1 in) and a length of 25.4 cm (10 in). The length of the contact chamber is ten times the diameter to model the length of the turbulent jet stream (Figure \ref{turbulent-jet}). Since the turbulent jet creates eddies that recirculate water at the outer edges of the jet stream, by minimizing the recirculation near pipe walls, the amount of coagulant that adheres to the walls can be reduced.
+
+(picture of contact chamber)
+
+Many of the experiments that were conducted revolved around the ideas of using high concentrations of coagulant to develop a floc blanket (Experiment 2) and using water pump speeds to determine the upward velocity rate and NTU (Experiments 1 & 3).
+
+The water pump speed was initially calculated using a target upflow velocity of 3 mm/s in the sedimentation tube. However, since the AguaClara High Rate Sedimentation subteam reduced the upflow velocity to 2 mm/s, the water pump was recalculated. The flow rates of the coagulant and clay inflow were assumed to be negligible.
+
+In the first experiment, the water pump speed was set to 114 rpm to achieve an upflow velocity in the sedimentation tube of 3 mm/s. The main purpose of this experiment was to determine an appropriate coagulant dose which would yield an effluent turbidity of 2 NTU, by varying the coagulant pump speed, which subsequently changed the mass flow rate of coagulant. It was observed that the sedimentation tube did not have enough floc particles to form a floc blanket; as a result, the team hypothesized that the lack of a floc blanket was causing the high effluent turbidity readings.
+
+In the second series of experiments, the coagulant dosage was increased to be eight times more concentrated than in Experiment 1. The reason for increasing the concentration by eight-fold was that at a 4 times higher concentration, the results were essentially the same as Experiment 1. In Experiment 2, the largest observable change was that the floc blanket started to form in the sedimentation tube. After the formation of the floc blanket, the effluent turbidity was significantly reduced.
+
+In Experiment 1, 2.5 mL of 70.9 g/L concentration PACl was added to 5 L of distilled water. However, since this coagulant dose did not have an effect on effluent turbidity even at high coagulant pump speeds, the coagulant stock concentration was increased by eight-fold. In Experiments 2 and 3, to prepare the coagulant solution, 1 liter of distilled water was added to a 1 liter-capacity bottle. It was essential to use distilled water because the coagulant particles could more effectively adhere to clay particles in a deionized environment. In order to achieve a floc blanket at such a low flow rate throughout the system, 4 mL of 70.9 g/L concentration PACl were added to the volume of water. Under the constraints set by PID control, the coagulant dose was continually adjusted throughout the experiment in o and is commonly used to characterize the mixing efficiency of a contact chamber.
+
+Other experiments were also carried out to determine the effectiveness of the contact chamber. Trials were ran, without the presence of the contact chamber, After ensuring that the influent turbidity could stabilize at 10 NTU despite initial startup complications, experiments were run to compare performance of the system with and without a contact chamber. Experiments with the contact chamber yielded higher effluent turbidity than experiments without the contact chamber. It was hypothesized that there was particle buildup in the effluent turbidimeter, so the effluent turbidimeter was emptied and refilled with distilled water. Cleaning out the turbidimeter notably decreased effluent turbidity, from approximately 4 NTU to 0.3 NTU.
+
+The Fall 2017 Team concluded that the effluent turbidity without the contact chamber was consistently lower than the effluent turbidity with the contact chamber. These results suggest that the contact chamber was not effective in improving plant efficiency. However, more tests should be run to determine why the addition of the contact chamber was not only ineffective in improving plant efficiency, but actually increased the effluent turbidity, worsening the plant efficiency.  Several recent modifications to the experiment setup and methods could have had an impact on the results. The addition of the 1 RPM pump at the waste drain controlled water flow through the tube settler, allowing most of the flow to flow up through the settler to the effluent turbidimeter, rather than allowing most of the flow to drain into the waste, as in previous experiments.  
+
 ## Methods
 ### Experimental Design
 
-The experiment setup was identical to the other Particle Removal subteams, High G Flocculation and High Rate Sedimentation, to standardize results.
+The experimental setup was similar to the other Particle Removal subteams, High G Flocculation and High Rate Sedimentation, to standardize results among the teams. 
 
 <div class="alert alert-block alert-danger">
 Consider "experimental setup" rather than "experiment setup"
