@@ -121,7 +121,7 @@ The Fall 2017 Team concluded that the effluent turbidity without the contact cha
 ## Methods
 ### Experimental Design
 
-The experimental setup was similar to the other Particle Removal subteams, High G Flocculation and High Rate Sedimentation, to standardize results among the teams. 
+The experimental setup was similar to the other Particle Removal subteams, High G Flocculation and High Rate Sedimentation, to standardize results among the teams.
 
 <div class="alert alert-block alert-danger">
 Consider "experimental setup" rather than "experiment setup"
@@ -164,7 +164,7 @@ How did you select the NTU, P, i, and D values. If they were assumed then just s
 
 ![PIDcontrol](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/PIDcontrol.png?raw=true)
 
-Figure: Schematic of experimental setup. The PID controller adjusts the clay pump speed to maintain an influent turbidity of 10 NTU. The water pump and coagulant pump were kept constant at 76 rpm and 20 rpm, respectively.
+Figure: Schematic of experimental setup. The PID controller adjusts the clay pump speed to maintain an influent turbidity of 10 NTU. The water pump and coagulant pump were kept constant at 76 rpm and 20 rpm, respectively. The water pump speed was calculated to achieve an upflow velocity in the sedimentation tube of 2 mm/s. The coagulant pump speed was adjusted experimentally to achieve an effluent turbidity of 2 NTU.
 
 <div class="alert alert-block alert-danger">
 How did you know the speeds of 76 rpm and 20 rpm? Consider referencing these calculations (which you should put in the manual)
@@ -215,7 +215,7 @@ Figure: The redesigned contact chamber, with a length that is ten times the diam
 
 
 ### Procedure
-To maintain an upflow velocity in the sedimentation tube of 2 mm/s, the water pump was kept constant at 76 rpm, while the flow rate contributions of the clay and coagulant were determined to be negligible, due to the low flow rate through the microbore tubing. PID control was used to vary the speed of the clay pump to reach the target influent turbidity of 10 NTU. The clay stock solution was diluted, so that the clay pump speed could be reduced to minimize the flow rate contribution of the clay pump. The concentration of the clay stock was 0.4 g/L. The coagulant dose was set by manual input to 20 RPM. The coagulant stock and pump speed were fine-tuned to achieve an effluent turbidity of approximately 2 NTU. The concentration of coagulant stock is currently 0.1418 g/L. Both the coagulant stock concentration and pump speed are subject to change as the system is altered.
+To maintain an upflow velocity in the sedimentation tube of 2 mm/s, the water pump was kept constant at 76 rpm, while the flow rate contributions of the clay and coagulant were assumed to be negligible, due to the low flow rate through the microbore tubing. PID control was used to vary the speed of the clay pump to reach the target influent turbidity of 10 NTU. The clay stock solution was diluted, so that the clay pump speed could be reduced to minimize the flow rate contribution of the clay pump. The concentration of the clay stock was 0.4 g/L. The coagulant dose was set by manual input to 20 RPM. The coagulant stock and pump speed were fine-tuned to achieve an effluent turbidity of approximately 2 NTU. The concentration of coagulant stock was 0.1418 g/L. Both the coagulant stock concentration and pump speed are subject to change as the system is altered.
 
 <div class="alert alert-block alert-danger">
 Keep tenses consistent
@@ -226,7 +226,7 @@ Where are you getting these values from?
 Before running an experiment, all valves were opened (raw water, floc weir outlet, and the waste stream outlet). The PID set point was adjusted from the OFF state to ON state, initiating the clay pump to feed the clay stock solution into the system. The water pump and coagulant pump were switched on and set to pre-determined pump speeds. The influent turbidity was allowed to reach its target turbidity of 10 NTU, and changes in the effluent turbidity were observed.
 
 ## Results and Analysis
-
+###Red Dye Test
 Prior to running experiments, a red dye test was conducted to observe the fluid dynamics of the coagulant dose in the contact chamber. Red dye was added to the coagulant stock, which tracked the motion of coagulant in the contact chamber.
 
 <div class="alert alert-block alert-danger">
@@ -245,6 +245,7 @@ Did you observe coagulant sticking to the walls?
 Why would the slow flow rate of the coagulant injection affect the mixing?
 </div>
 
+###Experimental Trials
 To reduce the high recirculation in the contact chamber, the team decided to change the orientation of the contact chamber. The contact chamber was previously oriented in the upflow direction, with the coagulant injection and clay mixture flowing into the contact chamber from the bottom. The contact chamber was inverted, and a red dye test was conducted with the coagulant and clay mixture entering the contact chamber from the top.
 
 ![5hoursexperiment](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/Experiment%20Result%20after%205%20hours.png?raw=true)
@@ -440,6 +441,12 @@ LengthCC= 10 * u.inch
 VolumeCC= pc.area_circle(DiameterCC)*LengthCC
 residencet=(VolumeCC/flowrate).to(u.s)
 residencet
+```
+###Required RPM for Water Pump to Achieve Required Volumetric Flow
+```python
+WaterPump_rpm = ((SedTube_Flow/0.8)*(60*(u.s))).magnitude
+print('The required RPMs for the water pump to achive a flow rate of 1.52 mL/s is ' +ut.sig(WaterPump_rpm,4)+' RPM.')
+#The required RPMs for the water pump to achive a flow rate of 1.52 mL/s is 76.01 RPM.
 ```
 
 ```python
