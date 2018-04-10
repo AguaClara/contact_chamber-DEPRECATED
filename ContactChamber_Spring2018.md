@@ -134,7 +134,7 @@ Identical implies being exactly the same? Is it exactly the same or similar? If 
 </div>
 
 ![Spring2018Schematic](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/Spring2018Schematic.jpg?raw=true)
-Figure: The experiment setup includes a contact chamber, a coiled flocculator, and a sedimentation tube.
+Figure: The experiment setup includes a contact chamber, and a coiled flocculator.
 
 <div class="alert alert-block alert-danger">
 What is the figure number? (issue propogates throughout report)
