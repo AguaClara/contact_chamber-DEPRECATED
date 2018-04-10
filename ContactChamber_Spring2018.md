@@ -133,12 +133,7 @@ Consider "experimental setup" rather than "experiment setup"
 Identical implies being exactly the same? Is it exactly the same or similar? If similar, how is it different
 </div>
 
-<<<<<<< HEAD
 ![Spring2018Schematic](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/Spring2018Schematic.jpg?raw=true)
-=======
-![Schematic](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/Schematic.jpg?raw=true)
-
->>>>>>> 73ee0a563b210239da412aa945fd2964ff017358
 Figure: The experiment setup includes a contact chamber, a coiled flocculator, and a sedimentation tube.
 
 <div class="alert alert-block alert-danger">
