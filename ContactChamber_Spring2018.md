@@ -17,7 +17,7 @@ Discuss what is already known about your research area based on both external wo
 
 The experiment setup was identical to the other Particle Removal subteams, High G Flocculation and High Rate Sedimentation, to standardize results.
 
-![Schematic](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/Schematic.jpg?raw=true)
+![Spring2018Schematic](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/Spring2018Schematic.jpg?raw=true)
 Figure: The experiment setup includes a contact chamber, a coiled flocculator, and a sedimentation tube.
 
 
