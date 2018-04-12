@@ -27,7 +27,7 @@ The decrease in pipe diameter causes an increase in headloss due to the Darcy-We
 
 $$ \Delta h = \frac{f_DLV^2}{2Dg} $$
 
-where delta h is the pressure loss in meters, f_D is the Darcy friction factor, L is the pipe length in meters, D is the hydraulic diameter in meters, V is the fluid flow average velocity in m/s, and g is the standard gravity. As the hydraulic diameter, D, decreases due to the buildup of coagulant, the pressure loss, delta h, increases. Therefore, the more coagulant that builds up on the pipe walls, the more headloss is observed. 
+where delta h is the pressure loss in meters, f_D is the Darcy friction factor, L is the pipe length in meters, D is the hydraulic diameter in meters, V is the fluid flow average velocity in m/s, and g is the standard gravity. As the hydraulic diameter, D, decreases due to the buildup of coagulant, the pressure loss, delta h, increases. Therefore, the more coagulant that builds up on the pipe walls, the more headloss is observed.
 
 <div class="alert alert-block alert-danger">
 How to write inline LaTeX?
