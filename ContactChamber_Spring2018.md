@@ -8,11 +8,10 @@ Please do not delete my comments. Address them for the next submission and then 
 
 ## Abstract
 <!-- Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max) -->
-When coagulant is introduced to turbid water, coagulant nanoparticles attach to suspended solids in the water. The coagulant will promote the sticking of partcicles so that the collision probablity may increase. As more collisions occur, these particles continue to adhere to each other, promoting the growth of flocs. However, a substantial portion of the coagulant dose adheres to the flocculator walls rather than influent particles, requiring a higher than necessary coagulant dose to compensate for this effect. In order to minimize the amount of coagulant wasted, an apparatus called the contact chamber was fabricated to increase the probability of collisions between the influent particles and coagulant by increasing residence time. The Spring 2018 Contact Chamber team analyzed the performance of the newly redesigned contact chamber by analyzing the headloss across the flocculator with and without the contact chamber.
+When coagulant is introduced to turbid water, coagulant nanoparticles attach to suspended solids in the water. As more collisions occur, these particles continue to adhere to each other, promoting the growth of flocs. However, a substantial portion of the coagulant dose adheres to the flocculator walls rather than influent particles, requiring a higher than necessary coagulant dose to compensate for this effect. In order to minimize the amount of coagulant wasted, an apparatus called the contact chamber was fabricated to increase the probability of collisions between the influent particles and coagulant by increasing residence time. The Spring 2018 Contact Chamber team analyzed the performance of the newly redesigned contact chamber by analyzing the headloss across the flocculator with and without the contact chamber.
 
 <div class="alert alert-block alert-danger">
 Why wastage and not just waste?
--Wastage is the loss or the geenral process in which things may be wasted. So, the general phenomenon in which it occurs may be the why we would want to use wastage vs waste?
 
 Does coagulant cause collisions? Or does it promote particles sticking together once they've collided?
 </div>
@@ -36,16 +35,13 @@ where delta h is the pressure loss in meters, f_D is the Darcy friction factor, 
 Well written, but if the issue is too much coagulant comparatively to the low flow rate of water, then why not just adjust the dose of coagulant? Isn't that what the chemical dose controller is supposed to do? Regulate the coagulant dosing based on flow rate?
 
 
-Currently, the AguaClara team doesnt have a contact chamber being utilized in any of its plants. We have seen in many cases whwre the contact chamber has increased and decreased the headloss amount, and with the changes we are making in our experiments, we cannot get an accurate depeiction of where we are headed with this. However, we have been running a series of experiments with and without the contact chamber torectify any potential of error, and we are hoping that in the future after this team's series of experiments, we will be able to introduce the device knowing that it will be able to increase the efficieny of delivering clean water to the community. 
-
 Is a contact chamber currently in use in AguaClara plants?
 
 Include information on your experiments here as well.
 </div>
--We decided to include a general synopsis of what we have been doing and leave most of the explanantion and elaboration in the Previous Work section. 
 
-## Literature Review
-The drinking water treatment processes are coagulation and flocculation, sedimentation, filtration, and disinfection. Before any process, flocculation, the process in which particles clump and build together to form larger particles, will occur and begin the process. Coagulation, also known as double layer compression, is the process by which smaller particles collide and adhere to each other to form larger, more dense particles known as flocs. The coagulation and flocculation process allows maximum aid in removing sediment particles in water before the filtration process. In the late 1940’s, a new theory was developed that distinguished two modes of removing colloidal impurities. This process has been widely known to be cost-effective and has revolutionized the water treatment process (Balik and Aydin, 2015).
+## Literature Review and Previous Work
+The drinking water treatment processes are coagulation and flocculation, sedimentation, filtration, and disinfection. Coagulation is the process by which smaller particles collide and adhere to each other to form larger, more dense particles known as flocs. The coagulation and flocculation process allows maximum aid in removing sediment particles in water before the filtration process. In the late 1940’s, a new theory was developed that distinguished two modes of removing colloidal impurities. This process has been widely known to be cost-effective and has revolutionized the water treatment process (Balik and Aydin, 2015).
 
 <div class="alert alert-block alert-danger">
 Mention that flocculation occurs before sedimentation as well as filtration.
@@ -53,19 +49,19 @@ Mention that flocculation occurs before sedimentation as well as filtration.
 Give the new process a name in the paragraph above even though you discuss it in detail below.
 </div>
 
-The process, known as double layer compression, describes the overcoming of the repulsive forces between the particles to adhere together and precipitate. This process would later be later known as coagulation. Stable particles of clay and organic substances found in influent raw water are negatively charged, causing particles to repel each other and remain suspended in solution. As positively charged coagulant is added to the water, the negative charges are neutralized, allowing the particles to adhere together into aggregations called “microflocs." (Jiang, 2015)
+The process, known as double layer compression, describes the overcoming of the repulsive forces between the particles to adhere together and precipitate. This process would later be later known as coagulation (Jiang, 2015). Stable particles of clay and organic substances found in influent raw water are negatively charged, causing particles to repel each other and remain suspended in solution. As positively charged coagulant is added to the water, the negative charges are neutralized, allowing the particles to adhere together into aggregations called “microflocs."
 
 <div class="alert alert-block alert-danger">
 Is the (Jiang, 2015) source, the source for the entire paragraph? If so, then put the intext citation at the end.
 </div>
 
-The coagulants that are normally used for potable water treatment tend to be predominantly inorganic salts of aluminum or iron, alum in particular being the most ubiquitous. When these coagulants are introduced to water, the aluminum ions have a tendency to hydrolyze in an unstable manner, eventually forming “a range of metal hydrolysis species.” AguaClara plants utilize polyaluminum chloride (PACl), a more commercially available polymeric aluminum coagulant.
+The coagulants that are normally used for drinking water treatment tend to be predominantly inorganic salts of aluminum or iron, alum in particular being the most ubiquitous. When these coagulants are introduced to water, the aluminum ions have a tendency to hydrolyze in an unstable manner, eventually forming “a range of metal hydrolysis species.” AguaClara plants utilize polyaluminum chloride (PACl), a more commercially available polymeric aluminum coagulant.
 
 <div class="alert alert-block alert-danger">
 Wastewater implies toilet wastes, use the term potable water or drinking water.
 </div>
 
-In a study of coagulation kinetics, batch experiments were conducted to examine the different ways that PACl and alum destabilize particles and the different factors that affect how quickly particles are destabilized. At low temperatures, the already hydrolyzed PACl, meaning that a reaction involving the breaking of a bond in a molecule using water and a change of pH has taken place, can be advantageous over the traditional coagulants because temperature fluctuation has less of an impact on the coagulant efficacy. Since previous research showed that the rate of collisions between particles is slower than the rate of particle destabilization, the collisions and the rate at which they occur are the rate-determining step. Therefore, the efficiency of the coagulation process depends on the rate of particle destabilization, and as a result, optimizing the particle destabilization rate would have the greatest impact on coagulant efficacy. (Pablo Cañizares, 2007)
+In a study of coagulation kinetics, batch experiments were conducted to examine the different ways that PACl and alum destabilize particles and the different factors that affect how quickly particles are destabilized. At low temperatures, the already hydrolyzed PACl can be advantageous over the traditional coagulants because temperature fluctuation has less of an impact on the coagulant efficacy. Since previous research showed that the rate of collisions between particles is slower than the rate of particle destabilization, particle destabilization is the rate-determining step. Therefore, the efficiency of the coagulation process depends on the rate of particle destabilization, and as a result, optimizing the particle destabilization rate would have the greatest impact on coagulant efficacy.
 
 <div class="alert alert-block alert-danger">
 Who did these experiments? What is your source?
@@ -75,18 +71,13 @@ What does it mean for the PACl to be hydrolyzed?
 Wouldn't collisions be the rate-determining step because it is slower? I am confused as to why the quicker process is the rate-determining step.
 </div>
 
-After clay and water are added, the rapid-mix chamber, where coagulant is fired at about 20 RPM in our lab, then ejects coagulant into the system, beginning the process of ‘precipitate enmeshment,’ also known as flocculation. The rapid mixing stage can be considered one of the most vital components of the coagulation-flocculation processes. At this stage, primary flocs tend to form and destabilization reactions occur. (Jiang, 2015). The smaller particles are physically enmeshed by the metal precipitates previously introduced. This generally occurs when the precipitates are beginning to form and settle (Bratby, 2006).
+After clay and water are added, the rapid-mix chamber then ejects coagulant into the system, beginning the process of ‘precipitate enmeshment,’ also known as flocculation. The rapid mixing stage can be considered one of the most vital components of the coagulation-flocculation processes. At this stage, primary flocs tend to form and destabilization reactions occur. (Jiang, 2015). The smaller particles are physically enmeshed by the metal precipitates previously introduced. This generally occurs when the precipitates are beginning to form and settle (Bratby, 2006).
 
 <div class="alert alert-block alert-danger">
 What is the rapid-mix chamber? Is that the contact chamber?
 </div>
-No, I guess I did not know about to word it correctly (in the lab, the portion that shoots coagagulant through the system about 20 RPM).
 
 Parameters, such as pH, temperature, alkalinity, composition of precipitates and mixing speeds can impact how effective the coagulation process is. It has been researched that alum coagulant performs at its maximum capacity when immersed within a solution of pH levels between 6 and 7. Coagulant, when introduced to high alkalinity water, may need to be used in large amounts to stabilize pH at an optimal level. This is important because if an insufficient amount of coagulant is administered, many problems can occur, such as the pipe corrosion, pH destabilization and the formation of residues that can clog pipes. Another parameter that can dictate the quality of the coagulation-flocculation process is temperature. Lower temperature waters tend to “decrease the hydrolysis and precipitation kinetics” (Hart).
-
-The abstract of a recent study porposed a new method of regulating pH and coagulant: "A multiple model predictive control (MMPC) strategy is proposed for coagulation control in water treatment plants. The proposed control strategy is developed to work effectively with different local operating regions of the chemical dosing unit where coagulation takes place." 
-
-By being able to assess the pH vales and the surface charges simultaneously, operational chares and the reduction of waste can be combatted. Similarly, the improvment of water quality can be enhanced, and thus the coaglution control can be effectively implemented. (F. Manenti, 2011)
 
 <div class="alert alert-block alert-danger">
 Can you regulate pH separately so that you do not require as much coagulant? (Coagulant is expensive)
@@ -94,9 +85,7 @@ Can you regulate pH separately so that you do not require as much coagulant? (Co
 What residues clog the pipes.
 </div>
 
-It has been determined through flow and tracer transport methods that vorticity field, a microscopic measure of rotation (vector) at a given point in the fluid, is the key parameter to use to discern areas of jet flow and recirculation zones within the contact chamber. The vorticity gradient and the flexion product, the result of a bending movement around a , shed the most mathematical insights on the topic of differentiating recirculation and jet zones, as well as fluid to fluid flow separations. From this, the team will have a mathematical analysis of the validity behind the qualitative results. The ratio of t90/t10, or the Morrill index, describes the travel time of 10% and 90% of the cumulative normalized tracer concentration observed at the outlet of the contact chamber.
-
-Being able to understand all of this allows for the general process to be understood. 
+It has been determined through flow and tracer transport methods that vorticity field is the key parameter to use to discern areas of jet flow and recirculation zones within the contact chamber. The vorticity gradient and the flexion product shed the most mathematical insights on the topic of differentiating recirculation and jet zones, as well as fluid to fluid flow separations. From this, the team will have a mathematical analysis of the validity behind the qualitative results. The ratio of t90/t10, or the Morrill index, describes the travel time of 10% and 90% of the cumulative normalized tracer concentration observed at the outlet of the contact chamber.
 
 <div class="alert alert-block alert-danger">
 Revise first sentence for readability.
@@ -108,18 +97,15 @@ Lots of jargon here that you need to explain/define: vorticity field, flexion, j
 Why do all of those things matter?
 </div>
 
-The basis with which the indices were characterized was classified as a "black box" analysis since the mechanisms of mixing within the contact chamber were overlooked or not analyzed (Demirel and Aral, 2016). The objective of this experimental analysis of behavior of the conservative tracer in the contact chamber is to note the mixing of the chemical within recirculation zones where the tracer is briefly retained before release, as well as the interactions between the jet zones and recirculation zones. Identifying these interactions were important because they both played a role in the aggregate mixing process. The difficulties posed in this analysis were the monitoring methods utilized in literature. The index bases were derived by measurements made only at specific outlet points throughout the system. There was no data highlighting the mechanics of mixing within the contact chamber itself. (Jiang, 2015)
+The basis with which the indices were characterized was classified as a "black box" analysis since the mechanisms of mixing within the contact chamber were overlooked or not analyzed (Demirel and Aral, 2016). The objective of this experimental analysis of behavior of the conservative tracer in the contact chamber is to note the mixing of the chemical within recirculation zones where the tracer is briefly retained before release, as well as the interactions between the jet zones and recirculation zones. Identifying these interactions were important because they both played a role in the aggregate mixing process. The difficulties posed in this analysis were the monitoring methods utilized in literature. The index bases were derived by measurements made only at specific outlet points throughout the system. There was no data highlighting the mechanics of mixing within the contact chamber itself.
 
 <div class="alert alert-block alert-danger">
 Are the jet zones and recirculation zones not in the contact chamber?
--Yes, they occur within the contact chamber. This is specified in the last paragrah!
 
 I am a bit lost as to what this all means.
 
 What is your source for this?
 </div>
-
-**Previous Work**
 
 In previous semesters, the contact chamber teams in AguaClara have assessed the efficacy of the addition of a contact chamber before flocculation in order to promote greater collision frequency between the coagulant nanoparticles and the suspended solids. This method increased residence times and promoted thorough mixing of the coagulant so that there is a uniform level of treatment in the chamber.
 
@@ -295,11 +281,12 @@ Why not increase turbidity is the low turbidity was causing slow floc blanket fo
 There is a lot of good stuff in this seciton but it is mostly results with not enough analysis.
 </div>
 
-```Python
-from aguaclara_research.play import *
-play.ftime(Data Analysis/datalog 4-15-2018.xls,1,end=-1)
+![4-15-2018](https://github.com/AguaClara/contact_chamber/blob/master/Data%20Analysis/Graphs/4-15-2018.png?raw=true)
+Figure:
 
-```
+![4-16-2018](https://github.com/AguaClara/contact_chamber/blob/master/Data%20Analysis/Graphs/4-16-2018.png?raw=true)
+Figure:
+
 
 ## Conclusions
 
