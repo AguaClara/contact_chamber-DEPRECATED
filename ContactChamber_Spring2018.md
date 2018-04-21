@@ -12,6 +12,7 @@ When coagulant is introduced to turbid water, coagulant nanoparticles attach to 
 
 <div class="alert alert-block alert-danger">
 Why wastage and not just waste?
+-Wastage is the loss or the geenral process in which things may be wasted. So, the general phenomenon in which it occurs may be the why we would want to use wastage vs waste?
 
 Does coagulant cause collisions? Or does it promote particles sticking together once they've collided?
 </div>
@@ -35,7 +36,7 @@ where delta h is the pressure loss in meters, f_D is the Darcy friction factor, 
 Well written, but if the issue is too much coagulant comparatively to the low flow rate of water, then why not just adjust the dose of coagulant? Isn't that what the chemical dose controller is supposed to do? Regulate the coagulant dosing based on flow rate?
 
 
-Currently, the AguaClara team doesnt have a contact chamber being utilized in any of its plants. We are hoping that in the future after this team's series of experiments, we will be able to introduce the device knowing that it will be able to increase the efficieny of delivering clean water to the community. 
+Currently, the AguaClara team doesnt have a contact chamber being utilized in any of its plants. We have seen in many cases whwre the contact chamber has increased and decreased the headloss amount, and with the changes we are making in our experiments, we cannot get an accurate depeiction of where we are headed with this. However, we have been running a series of experiments with and without the contact chamber torectify any potential of error, and we are hoping that in the future after this team's series of experiments, we will be able to introduce the device knowing that it will be able to increase the efficieny of delivering clean water to the community. 
 
 Is a contact chamber currently in use in AguaClara plants?
 
@@ -78,8 +79,13 @@ After clay and water are added, the rapid-mix chamber, where coagulant is fired 
 <div class="alert alert-block alert-danger">
 What is the rapid-mix chamber? Is that the contact chamber?
 </div>
+No, I guess I did not know about to word it correctly (in the lab, the portion that shoots coagagulant through the system about 20 RPM).
 
 Parameters, such as pH, temperature, alkalinity, composition of precipitates and mixing speeds can impact how effective the coagulation process is. It has been researched that alum coagulant performs at its maximum capacity when immersed within a solution of pH levels between 6 and 7. Coagulant, when introduced to high alkalinity water, may need to be used in large amounts to stabilize pH at an optimal level. This is important because if an insufficient amount of coagulant is administered, many problems can occur, such as the pipe corrosion, pH destabilization and the formation of residues that can clog pipes. Another parameter that can dictate the quality of the coagulation-flocculation process is temperature. Lower temperature waters tend to “decrease the hydrolysis and precipitation kinetics” (Hart).
+
+The abstract of a recent study porposed a new method of regulating pH and coagulant: "A multiple model predictive control (MMPC) strategy is proposed for coagulation control in water treatment plants. The proposed control strategy is developed to work effectively with different local operating regions of the chemical dosing unit where coagulation takes place." 
+
+The surface charge and pH values of the chemically treated water are controlled at the same time to reduce waste, operational costs and improve the quality of portable water distributed for public consumption by manipulating the flow rates of the chemical reagents. The simulation results show that coagulation control can be effectively controlled by using the proposed control strategy." 
 
 <div class="alert alert-block alert-danger">
 Can you regulate pH separately so that you do not require as much coagulant? (Coagulant is expensive)
@@ -87,7 +93,9 @@ Can you regulate pH separately so that you do not require as much coagulant? (Co
 What residues clog the pipes.
 </div>
 
-It has been determined through flow and tracer transport methods that vorticity field is the key parameter to use to discern areas of jet flow and recirculation zones within the contact chamber. The vorticity gradient and the flexion product shed the most mathematical insights on the topic of differentiating recirculation and jet zones, as well as fluid to fluid flow separations. From this, the team will have a mathematical analysis of the validity behind the qualitative results. The ratio of t90/t10, or the Morrill index, describes the travel time of 10% and 90% of the cumulative normalized tracer concentration observed at the outlet of the contact chamber.
+It has been determined through flow and tracer transport methods that vorticity field, a microscopic measure of rotation (vector) at a given point in the fluid, is the key parameter to use to discern areas of jet flow and recirculation zones within the contact chamber. The vorticity gradient and the flexion product, the result of a bending movement around a , shed the most mathematical insights on the topic of differentiating recirculation and jet zones, as well as fluid to fluid flow separations. From this, the team will have a mathematical analysis of the validity behind the qualitative results. The ratio of t90/t10, or the Morrill index, describes the travel time of 10% and 90% of the cumulative normalized tracer concentration observed at the outlet of the contact chamber.
+
+Being able to understand all of this allows for the general process to be understood. 
 
 <div class="alert alert-block alert-danger">
 Revise first sentence for readability.
@@ -99,10 +107,11 @@ Lots of jargon here that you need to explain/define: vorticity field, flexion, j
 Why do all of those things matter?
 </div>
 
-The basis with which the indices were characterized was classified as a "black box" analysis since the mechanisms of mixing within the contact chamber were overlooked or not analyzed (Demirel and Aral, 2016). The objective of this experimental analysis of behavior of the conservative tracer in the contact chamber is to note the mixing of the chemical within recirculation zones where the tracer is briefly retained before release, as well as the interactions between the jet zones and recirculation zones. Identifying these interactions were important because they both played a role in the aggregate mixing process. The difficulties posed in this analysis were the monitoring methods utilized in literature. The index bases were derived by measurements made only at specific outlet points throughout the system. There was no data highlighting the mechanics of mixing within the contact chamber itself.
+The basis with which the indices were characterized was classified as a "black box" analysis since the mechanisms of mixing within the contact chamber were overlooked or not analyzed (Demirel and Aral, 2016). The objective of this experimental analysis of behavior of the conservative tracer in the contact chamber is to note the mixing of the chemical within recirculation zones where the tracer is briefly retained before release, as well as the interactions between the jet zones and recirculation zones. Identifying these interactions were important because they both played a role in the aggregate mixing process. The difficulties posed in this analysis were the monitoring methods utilized in literature. The index bases were derived by measurements made only at specific outlet points throughout the system. There was no data highlighting the mechanics of mixing within the contact chamber itself. (Jiang, 2015)
 
 <div class="alert alert-block alert-danger">
 Are the jet zones and recirculation zones not in the contact chamber?
+-Yes, they occur within the contact chamber. This is specified in the last paragrah!
 
 I am a bit lost as to what this all means.
 
