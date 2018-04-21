@@ -8,7 +8,7 @@ Please do not delete my comments. Address them for the next submission and then 
 
 ## Abstract
 <!-- Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max) -->
-When coagulant is introduced to turbid water, coagulant nanoparticles attach to suspended solids in the water. As more collisions occur, these particles continue to adhere to each other, promoting the growth of flocs. However, a substantial portion of the coagulant dose adheres to the flocculator walls rather than influent particles, requiring a higher than necessary coagulant dose to compensate for this effect. In order to minimize the amount of coagulant wasted, an apparatus called the contact chamber was fabricated to increase the probability of collisions between the influent particles and coagulant by increasing residence time. The Spring 2018 Contact Chamber team analyzed the performance of the newly redesigned contact chamber by analyzing the headloss across the flocculator with and without the contact chamber.
+When coagulant is introduced to turbid water, coagulant nanoparticles attach to suspended solids in the water. The coagulant will promote the sticking of partcicles so that the collision probablity may increase. As more collisions occur, these particles continue to adhere to each other, promoting the growth of flocs. However, a substantial portion of the coagulant dose adheres to the flocculator walls rather than influent particles, requiring a higher than necessary coagulant dose to compensate for this effect. In order to minimize the amount of coagulant wasted, an apparatus called the contact chamber was fabricated to increase the probability of collisions between the influent particles and coagulant by increasing residence time. The Spring 2018 Contact Chamber team analyzed the performance of the newly redesigned contact chamber by analyzing the headloss across the flocculator with and without the contact chamber.
 
 <div class="alert alert-block alert-danger">
 Why wastage and not just waste?
@@ -35,13 +35,15 @@ where delta h is the pressure loss in meters, f_D is the Darcy friction factor, 
 Well written, but if the issue is too much coagulant comparatively to the low flow rate of water, then why not just adjust the dose of coagulant? Isn't that what the chemical dose controller is supposed to do? Regulate the coagulant dosing based on flow rate?
 
 
+Currently, the AguaClara team doesnt have a contact chamber being utilized in any of its plants. We are hoping that in the future after this team's series of experiments, we will be able to introduce the device knowing that it will be able to increase the efficieny of delivering clean water to the community. 
+
 Is a contact chamber currently in use in AguaClara plants?
 
 Include information on your experiments here as well.
 </div>
 
-## Literature Review and Previous Work
-The drinking water treatment processes are coagulation and flocculation, sedimentation, filtration, and disinfection. Coagulation is the process by which smaller particles collide and adhere to each other to form larger, more dense particles known as flocs. The coagulation and flocculation process allows maximum aid in removing sediment particles in water before the filtration process. In the late 1940’s, a new theory was developed that distinguished two modes of removing colloidal impurities. This process has been widely known to be cost-effective and has revolutionized the water treatment process (Balik and Aydin, 2015).
+## Literature Review
+The drinking water treatment processes are coagulation and flocculation, sedimentation, filtration, and disinfection. Before any process, flocculation, the process in which particles clump and build together to form larger particles, will occur and begin the process. Coagulation, also known as double layer compression, is the process by which smaller particles collide and adhere to each other to form larger, more dense particles known as flocs. The coagulation and flocculation process allows maximum aid in removing sediment particles in water before the filtration process. In the late 1940’s, a new theory was developed that distinguished two modes of removing colloidal impurities. This process has been widely known to be cost-effective and has revolutionized the water treatment process (Balik and Aydin, 2015).
 
 <div class="alert alert-block alert-danger">
 Mention that flocculation occurs before sedimentation as well as filtration.
@@ -49,19 +51,19 @@ Mention that flocculation occurs before sedimentation as well as filtration.
 Give the new process a name in the paragraph above even though you discuss it in detail below.
 </div>
 
-The process, known as double layer compression, describes the overcoming of the repulsive forces between the particles to adhere together and precipitate. This process would later be later known as coagulation (Jiang, 2015). Stable particles of clay and organic substances found in influent raw water are negatively charged, causing particles to repel each other and remain suspended in solution. As positively charged coagulant is added to the water, the negative charges are neutralized, allowing the particles to adhere together into aggregations called “microflocs."
+The process, known as double layer compression, describes the overcoming of the repulsive forces between the particles to adhere together and precipitate. This process would later be later known as coagulation. Stable particles of clay and organic substances found in influent raw water are negatively charged, causing particles to repel each other and remain suspended in solution. As positively charged coagulant is added to the water, the negative charges are neutralized, allowing the particles to adhere together into aggregations called “microflocs." (Jiang, 2015)
 
 <div class="alert alert-block alert-danger">
 Is the (Jiang, 2015) source, the source for the entire paragraph? If so, then put the intext citation at the end.
 </div>
 
-The coagulants that are normally used for drinking water treatment tend to be predominantly inorganic salts of aluminum or iron, alum in particular being the most ubiquitous. When these coagulants are introduced to water, the aluminum ions have a tendency to hydrolyze in an unstable manner, eventually forming “a range of metal hydrolysis species.” AguaClara plants utilize polyaluminum chloride (PACl), a more commercially available polymeric aluminum coagulant.
+The coagulants that are normally used for potable water treatment tend to be predominantly inorganic salts of aluminum or iron, alum in particular being the most ubiquitous. When these coagulants are introduced to water, the aluminum ions have a tendency to hydrolyze in an unstable manner, eventually forming “a range of metal hydrolysis species.” AguaClara plants utilize polyaluminum chloride (PACl), a more commercially available polymeric aluminum coagulant.
 
 <div class="alert alert-block alert-danger">
 Wastewater implies toilet wastes, use the term potable water or drinking water.
 </div>
 
-In a study of coagulation kinetics, batch experiments were conducted to examine the different ways that PACl and alum destabilize particles and the different factors that affect how quickly particles are destabilized. At low temperatures, the already hydrolyzed PACl can be advantageous over the traditional coagulants because temperature fluctuation has less of an impact on the coagulant efficacy. Since previous research showed that the rate of collisions between particles is slower than the rate of particle destabilization, particle destabilization is the rate-determining step. Therefore, the efficiency of the coagulation process depends on the rate of particle destabilization, and as a result, optimizing the particle destabilization rate would have the greatest impact on coagulant efficacy.
+In a study of coagulation kinetics, batch experiments were conducted to examine the different ways that PACl and alum destabilize particles and the different factors that affect how quickly particles are destabilized. At low temperatures, the already hydrolyzed PACl, meaning that a reaction involving the breaking of a bond in a molecule using water and a change of pH has taken place, can be advantageous over the traditional coagulants because temperature fluctuation has less of an impact on the coagulant efficacy. Since previous research showed that the rate of collisions between particles is slower than the rate of particle destabilization, the collisions and the rate at which they occur are the rate-determining step. Therefore, the efficiency of the coagulation process depends on the rate of particle destabilization, and as a result, optimizing the particle destabilization rate would have the greatest impact on coagulant efficacy.
 
 <div class="alert alert-block alert-danger">
 Who did these experiments? What is your source?
@@ -71,7 +73,7 @@ What does it mean for the PACl to be hydrolyzed?
 Wouldn't collisions be the rate-determining step because it is slower? I am confused as to why the quicker process is the rate-determining step.
 </div>
 
-After clay and water are added, the rapid-mix chamber then ejects coagulant into the system, beginning the process of ‘precipitate enmeshment,’ also known as flocculation. The rapid mixing stage can be considered one of the most vital components of the coagulation-flocculation processes. At this stage, primary flocs tend to form and destabilization reactions occur. (Jiang, 2015). The smaller particles are physically enmeshed by the metal precipitates previously introduced. This generally occurs when the precipitates are beginning to form and settle (Bratby, 2006).
+After clay and water are added, the rapid-mix chamber, where coagulant is fired at about 20 RPM in our lab, then ejects coagulant into the system, beginning the process of ‘precipitate enmeshment,’ also known as flocculation. The rapid mixing stage can be considered one of the most vital components of the coagulation-flocculation processes. At this stage, primary flocs tend to form and destabilization reactions occur. (Jiang, 2015). The smaller particles are physically enmeshed by the metal precipitates previously introduced. This generally occurs when the precipitates are beginning to form and settle (Bratby, 2006).
 
 <div class="alert alert-block alert-danger">
 What is the rapid-mix chamber? Is that the contact chamber?
@@ -106,6 +108,8 @@ I am a bit lost as to what this all means.
 
 What is your source for this?
 </div>
+
+**Previous Work**
 
 In previous semesters, the contact chamber teams in AguaClara have assessed the efficacy of the addition of a contact chamber before flocculation in order to promote greater collision frequency between the coagulant nanoparticles and the suspended solids. This method increased residence times and promoted thorough mixing of the coagulant so that there is a uniform level of treatment in the chamber.
 
