@@ -86,7 +86,7 @@ Parameters, such as pH, temperature, alkalinity, composition of precipitates and
 
 The abstract of a recent study porposed a new method of regulating pH and coagulant: "A multiple model predictive control (MMPC) strategy is proposed for coagulation control in water treatment plants. The proposed control strategy is developed to work effectively with different local operating regions of the chemical dosing unit where coagulation takes place." 
 
-The surface charge and pH values of the chemically treated water are controlled at the same time to reduce waste, operational costs and improve the quality of portable water distributed for public consumption by manipulating the flow rates of the chemical reagents. The simulation results show that coagulation control can be effectively controlled by using the proposed control strategy." 
+By being able to assess the pH vales and the surface charges simultaneously, operational chares and the reduction of waste can be combatted. Similarly, the improvment of water quality can be enhanced, and thus the coaglution control can be effectively implemented. (F. Manenti, 2011)
 
 <div class="alert alert-block alert-danger">
 Can you regulate pH separately so that you do not require as much coagulant? (Coagulant is expensive)
