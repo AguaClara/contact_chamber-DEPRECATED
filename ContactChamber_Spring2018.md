@@ -42,6 +42,7 @@ Is a contact chamber currently in use in AguaClara plants?
 
 Include information on your experiments here as well.
 </div>
+-We decided to include a general synopsis of what we have been doing and leave most of the explanantion and elaboration in the Previous Work section. 
 
 ## Literature Review
 The drinking water treatment processes are coagulation and flocculation, sedimentation, filtration, and disinfection. Before any process, flocculation, the process in which particles clump and build together to form larger particles, will occur and begin the process. Coagulation, also known as double layer compression, is the process by which smaller particles collide and adhere to each other to form larger, more dense particles known as flocs. The coagulation and flocculation process allows maximum aid in removing sediment particles in water before the filtration process. In the late 1940’s, a new theory was developed that distinguished two modes of removing colloidal impurities. This process has been widely known to be cost-effective and has revolutionized the water treatment process (Balik and Aydin, 2015).
