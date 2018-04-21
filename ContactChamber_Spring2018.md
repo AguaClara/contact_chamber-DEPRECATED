@@ -281,6 +281,12 @@ Why not increase turbidity is the low turbidity was causing slow floc blanket fo
 There is a lot of good stuff in this seciton but it is mostly results with not enough analysis.
 </div>
 
+```Python
+from aguaclara_research.play import *
+play.ftime(Data Analysis/datalog 4-15-2018.xls,1,end=-1)
+
+```
+
 ## Conclusions
 
 From the series of tests to see the efficiency of contact chamber and the sedimentation tank in the system, it is concluded that the change in design might be required in both units. So, the next steps for the team will be conduct more research on fluid dynamics including the particles as well as identify the relationship between the residence time and particle removal.
