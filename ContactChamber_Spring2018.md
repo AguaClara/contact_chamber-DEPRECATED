@@ -1,6 +1,6 @@
 # Contact Chamber, Spring 2018
 #### Cheer Tsang, Yeonjin Yun, Canaan Delgado
-#### March 9, 2018
+#### April 21, 2018
 
 <div class="alert alert-block alert-danger">
 Please do not delete my comments. Address them for the next submission and then I will use the comments to check for corrections. If you disagree with my comments, just add one below mine.
@@ -13,7 +13,7 @@ When coagulant is introduced to turbid water, coagulant nanoparticles attach to 
 <div class="alert alert-block alert-danger">
 Why wastage and not just waste? Wastage is the loss or the geenral process in which things may be wasted. So, the general phenomenon in which it occurs may be the why we would want to use wastage vs waste as a term.
 
-Does coagulant cause collisions? Or does it promote particles sticking together once they've collided? 
+Does coagulant cause collisions? Or does it promote particles sticking together once they've collided?
 </div>
 
 ## Introduction
@@ -22,16 +22,18 @@ In normal conditions, the AguaClara plants typically operate at a relatively low
 In order to minimize the amount of coagulant lost to the flocculator walls, the amount of coagulant that adheres to the influent particles must be maximized. One possible solution for this is adding a contact chamber, which would allow the coagulant to mix with the influent prior to entering the flocculator. Reducing the amount of coagulant that adheres to the walls of the flocculator would reduce the amount of coagulant wasted, thereby reducing plant operation costs.
 
 In order to quantitatively measure the impact of coagulant attaching to the walls of the flocculator, headloss across the flocculator can be measured to determine the amount of coagulant buildup. As excess coagulant adheres to the inner walls of the flocculator, the coagulant buildup effectively causes a decrease in the pipe diameter (Figure).
+
 ![Headloss_diagram](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/Headloss_diagram.png?raw=true)
+
 Figure: Coagulant buildup on the inner pipe walls of the flocculator causes a decrease in the pipe diameter, which increases headloss.
 
 The decrease in pipe diameter causes an increase in headloss due to the Darcy-Weisbach equation:
 
 $$ \Delta h = \frac{f_DLV^2}{2Dg} $$
 
-where delta h is the pressure loss in meters, f_D is the Darcy friction factor, L is the pipe length in meters, D is the hydraulic diameter in meters, V is the fluid flow average velocity in m/s, and g is the standard gravity. As the hydraulic diameter, D, decreases due to the buildup of coagulant, the pressure loss, delta h, increases. Therefore, the more coagulant that builds up on the pipe walls, the more headloss is observed.
+where delta h is the pressure loss in meters, $f_{D}$ is the Darcy friction factor, L is the pipe length in meters, D is the hydraulic diameter in meters, V is the fluid flow average velocity in m/s, and g is the standard gravity. As the hydraulic diameter, D, decreases due to the buildup of coagulant, the pressure loss, delta h, increases. Therefore, the more coagulant that builds up on the pipe walls, the more headloss is observed. The change in headloss can then be used as a measure of the amount of coagulant that builds up on the walls.
 
-Currently, the AguaClara team doesn’t have a contact chamber being utilized in any of its plants. We have seen in many cases where the contact chamber has increased and decreased the headloss amount, and with the changes we are making in our experiments, we cannot get an accurate depiction of where we are headed with this. However, we have been running a series of experiments with and without the contact chamber to rectify any potential of error, and we are hoping that in the future after this team's series of experiments, we will be able to introduce the device knowing that it will be able to increase the efficiency of delivering clean water to the community.
+Currently, the AguaClara plants are not using contact chambers because there has not been enough evidence to support the utility of it. Previous semesters have had mixed results in demonstrating that the contact chamber significantly reduces the amount of coagulant that adheres to flocculator walls. We made changes in our experiments this semester to rectify inconsistencies and reduce the potential for error. We hope that in the future after this semester's series of experiments, we will be able to determine with certainty the efficacy of the contact chamber and introduce the device to the AguaClara plants. It is hypothesized that the addition of the contact chamber will result in a lower increase of headloss; thus, less coagulant will adhere to the walls of the flocculator, and the plant will run more efficiently.
 
 <div class="alert alert-block alert-danger">
 Well written, but if the issue is too much coagulant comparatively to the low flow rate of water, then why not just adjust the dose of coagulant? Isn't that what the chemical dose controller is supposed to do? Regulate the coagulant dosing based on flow rate?
@@ -43,7 +45,7 @@ Include information on your experiments here as well.
 </div>
 
 ## Literature Review
-The drinking water treatment processes are coagulation and flocculation, sedimentation, filtration, and disinfection. Before any process, flocculation, the process in which particles clump and build together to form larger particles, will occur and begin the process. Coagulation, also known as double layer compression, is the process by which smaller particles collide and adhere to each other to form larger, more dense particles known as flocs. The coagulation and flocculation process allows maximum aid in removing sediment particles in water before the filtration process. In the late 1940’s, a new theory was developed that distinguished two modes of removing colloidal impurities. This process has been widely known to be cost-effective and has revolutionized the water treatment process (Balik and Aydin, 2015).
+The drinking water treatment processes are coagulation and flocculation, sedimentation, filtration, and disinfection. In the first steps, coagulation and flocculation, particles aggregate together to form larger particles. The coagulation and flocculation process allows maximum aid in removing sediment particles in water before the filtration process. In the late 1940’s, a new theory was developed that distinguished two modes of removing colloidal impurities. This process, double layer compression, also known as coagulation, has been widely known to be cost-effective and has revolutionized the water treatment process (Balik and Aydin, 2015).
 
 <div class="alert alert-block alert-danger">
 Mention that flocculation occurs before sedimentation as well as filtration.
@@ -51,7 +53,7 @@ Mention that flocculation occurs before sedimentation as well as filtration.
 Give the new process a name in the paragraph above even though you discuss it in detail below.
 </div>
 
-The process, known as double layer compression, describes the overcoming of the repulsive forces between the particles to adhere together and precipitate. This process would later be later known as coagulation. Stable particles of clay and organic substances found in influent raw water are negatively charged, causing particles to repel each other and remain suspended in solution. As positively charged coagulant is added to the water, the negative charges are neutralized, allowing the particles to adhere together into aggregations called “microflocs." (Jiang, 2015)
+Coagulation describes the overcoming of the repulsive forces between the particles to adhere together and precipitate. Stable particles of clay and organic substances found in influent raw water are negatively charged, causing particles to repel each other and remain suspended in solution. As positively charged coagulant is added to the water, the negative charges are neutralized, allowing the particles to adhere together into aggregations called “microflocs" (Jiang, 2015).
 
 <div class="alert alert-block alert-danger">
 Is the (Jiang, 2015) source, the source for the entire paragraph? If so, then put the intext citation at the end.
@@ -62,9 +64,8 @@ The coagulants that are normally used for drinking water treatment tend to be pr
 <div class="alert alert-block alert-danger">
 Wastewater implies toilet wastes, use the term potable water or drinking water.
 </div>
-- We did already have the term drinking water here in this paragraph (:
 
-In a study of coagulation kinetics, batch experiments were conducted to examine the different ways that PACl and alum destabilize particles and the different factors that affect how quickly particles are destabilized. At low temperatures, the already hydrolyzed PACl, meaning that a reaction involving the breaking of a bond in a molecule using water and a change of pH has taken place, can be advantageous over the traditional coagulants because temperature fluctuation has less of an impact on the coagulant efficacy. Since previous research showed that the rate of collisions between particles is slower than the rate of particle destabilization, the collisions and the rate at which they occur are the rate-determining step. Therefore, the efficiency of the coagulation process depends on the rate of particle destabilization, and as a result, optimizing the particle destabilization rate would have the greatest impact on coagulant efficacy. (Pablo Cañizares, 2007)
+In a study of coagulation kinetics, batch experiments were conducted to examine the different ways that PACl and alum destabilize particles and the different factors that affect how quickly particles are destabilized. At low temperatures, PACl can be advantageous over traditional coagulants because temperature fluctuation has less of an impact on the coagulant efficacy. Previous research showed that the rate of collisions between particles is slower than the rate of particle destabilization, the collisions and the rate at which they occur are the rate-determining step. Therefore, the efficiency of the coagulation process depends on the rate of particle destabilization, and as a result, optimizing the particle destabilization rate would have the greatest impact on coagulant efficacy. (Pablo Cañizares, 2007)
 
 <div class="alert alert-block alert-danger">
 Who did these experiments? What is your source?
@@ -74,11 +75,10 @@ What does it mean for the PACl to be hydrolyzed?
 Wouldn't collisions be the rate-determining step because it is slower? I am confused as to why the quicker process is the rate-determining step.
 </div>
 
-to why the quicker process is the rate-determining step.
-After clay and water are added, the rapid-mix chamber, where coagulant is fired at about 20 RPM in our lab, then ejects coagulant into the system, beginning the process of ‘precipitate enmeshment,’ also known as flocculation. The rapid mixing stage can be considered one of the most vital components of the coagulation-flocculation processes. At this stage, primary flocs tend to form and destabilization reactions occur. (Jiang, 2015). The smaller particles are physically enmeshed by the metal precipitates previously introduced. This 
+After clay and water are added, the rapid-mix chamber, where coagulant is fired at about 20 RPM in our lab, then ejects coagulant into the system, beginning the process of ‘precipitate enmeshment,’ also known as flocculation. The rapid mixing stage can be considered one of the most vital components of the coagulation-flocculation processes. At this stage, primary flocs tend to form and destabilization reactions occur. (Jiang, 2015). The smaller particles are physically enmeshed by the metal precipitates previously introduced. This
 
 <div class="alert alert-block alert-danger">
-What is the rapid-mix chamber? Is that the contact chamber? 
+What is the rapid-mix chamber? Is that the contact chamber?
 </div>
 - No, I guess I did not know about to word it correctly (in the lab, the portion that shoots coagulant through the system about 20 RPM).
 
@@ -97,7 +97,7 @@ What residues clog the pipes.
 
 Through flow and tracer transport methods, vorticity field, a microscopic measure of rotation (vector) at a given point in the fluid, is determined to be the key parameter to use to discern areas of jet flow (where the water speed travels in a much faster, concentarted area) and recirculation zones (where the water circulates repeatedly) within the contact chamber. The vorticity gradient and the flexion product, the result of a bending movement around a 'joint' within the piping, shed the most mathematical insights on the topic of differentiating recirculation and jet zones, as well as fluid to fluid flow separations. From this, the team will have a mathematical analysis of the validity behind the qualitative results. The ratio of t90/t10, or the Morrill index, describes the travel time of 10% and 90% of the cumulative normalized tracer concentration observed at the outlet of the contact chamber.
 
-Understanding all of these terms is vital to how the function of the conyact chmaber may play a huge role in water treatment efficiency. If allof these factors weren't taken into consideration, the way that the contact chamber would function could be skewed and could ultimtely prove to be a waste of resources and time. 
+Understanding all of these terms is vital to how the function of the conyact chmaber may play a huge role in water treatment efficiency. If allof these factors weren't taken into consideration, the way that the contact chamber would function could be skewed and could ultimtely prove to be a waste of resources and time.
 
 <div class="alert alert-block alert-danger">
 Revise first sentence for readability.
@@ -297,7 +297,7 @@ Why not increase turbidity is the low turbidity was causing slow floc blanket fo
 There is a lot of good stuff in this seciton but it is mostly results with not enough analysis.
 </div>
 
-Experiments were conducted with and without the contact chamber to compare increase in headloss across the flocculator over time. 
+Experiments were conducted with and without the contact chamber to compare increase in headloss across the flocculator over time.
 
 ![4-15-2018](https://github.com/AguaClara/contact_chamber/blob/master/Data%20Analysis/Graphs/4-15-2018.png?raw=true)
 Figure: Headloss across the flocculator in centimeters of water in experimental setup without the contact chamber. The positive slope indicates that the headloss increased over time. The first trial of the experiment was run for approximately 8.4 hours.
