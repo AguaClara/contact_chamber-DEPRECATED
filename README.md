@@ -11,7 +11,7 @@ The purpose of the contact chamber is to promote a greater probability of intera
   - [Spring 2016 Report]()
   - [Spring 2016 Symposium](https://docs.google.com/presentation/d/1-EwTsOyl9IHuY2STwRTYz5k7_NfOdIyojJ7s5PHQgCk/edit?usp=sharing)
   - [Spring 2016 Final Presentation](https://docs.google.com/presentation/d/1Xcuk7Mcgq89CbMK2ymHwUBZJNELRMgINongWwM1bsHg/edit?usp=sharing)
- * Fall 2016 
+* Fall 2016 
   - [Fall 2016 Report]()
   - [Fall 2016 Symposium](https://docs.google.com/presentation/d/1RdgoUj4pWJ3yHRMJw3VqPWnqxYkanCw85NiqDGYofhA/edit?usp=sharing)
   - [Fall 2016 Final Presentation]()
