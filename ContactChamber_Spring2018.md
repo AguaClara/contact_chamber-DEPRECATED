@@ -281,12 +281,13 @@ Why not increase turbidity is the low turbidity was causing slow floc blanket fo
 There is a lot of good stuff in this seciton but it is mostly results with not enough analysis.
 </div>
 
+Experiments were conducted with and without the contact chamber to compare increase in headloss across the flocculator over time. 
+
 ![4-15-2018](https://github.com/AguaClara/contact_chamber/blob/master/Data%20Analysis/Graphs/4-15-2018.png?raw=true)
-Figure:
+Figure: Headloss across the flocculator in centimeters of water in experimental setup without the contact chamber. The positive slope indicates that the headloss increased over time. The first trial of the experiment was run for approximately 8.4 hours.
 
 ![4-16-2018](https://github.com/AguaClara/contact_chamber/blob/master/Data%20Analysis/Graphs/4-16-2018.png?raw=true)
-Figure:
-
+Figure: Headloss across the flocculator in centimeters of water in experimental setup without the contact chamber. The positive slope indicates that the headloss increased over time. The second trial of the experiment was run for approximately 8.4 hours.
 
 ## Conclusions
 
