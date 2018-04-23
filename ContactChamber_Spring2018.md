@@ -65,7 +65,7 @@ The coagulants that are normally used for drinking water treatment tend to be pr
 Wastewater implies toilet wastes, use the term potable water or drinking water.
 </div>
 
-In a study of coagulation kinetics, batch experiments were conducted to examine the different ways that PACl and alum destabilize particles and the different factors that affect how quickly particles are destabilized. At low temperatures, PACl can be advantageous over traditional coagulants because temperature fluctuation has less of an impact on the coagulant efficacy. Previous research showed that the rate of collisions between particles is slower than the rate of particle destabilization, the collisions and the rate at which they occur are the rate-determining step. Therefore, the efficiency of the coagulation process depends on the rate of particle destabilization, and as a result, optimizing the particle destabilization rate would have the greatest impact on coagulant efficacy. (Pablo Cañizares, 2007)
+In a study of coagulation kinetics, batch experiments were conducted to examine the different ways that PACl and alum destabilize particles and the different factors that affect how quickly particles are destabilized. At low temperatures, PACl can be advantageous over traditional coagulants because temperature fluctuation has less of an impact on the coagulant efficacy. Previous research showed that the rate of collisions between particles is slower than the rate of particle destabilization; thus, the rate at which collisions occur is the rate-determining step. Therefore, the efficiency of the coagulation process depends on the rate of collisions, and as a result, optimizing the collision rate would have the greatest impact on coagulant efficacy (Pablo Cañizares, 2007).
 
 <div class="alert alert-block alert-danger">
 Who did these experiments? What is your source?
@@ -75,18 +75,16 @@ What does it mean for the PACl to be hydrolyzed?
 Wouldn't collisions be the rate-determining step because it is slower? I am confused as to why the quicker process is the rate-determining step.
 </div>
 
-After clay and water are added, the rapid-mix chamber, where coagulant is fired at about 20 RPM in our lab, then ejects coagulant into the system, beginning the process of ‘precipitate enmeshment,’ also known as flocculation. The rapid mixing stage can be considered one of the most vital components of the coagulation-flocculation processes. At this stage, primary flocs tend to form and destabilization reactions occur. (Jiang, 2015). The smaller particles are physically enmeshed by the metal precipitates previously introduced. This
+After the coagulation process, the process of ‘precipitate enmeshment,’ also known as flocculation, begins. The rapid mixing stage can be considered one of the most vital components of the coagulation-flocculation processes. At this stage, primary flocs tend to form and destabilization reactions occur (Jiang, 2015). The smaller particles are physically enmeshed by the metal precipitates previously introduced. This process causes the particles in the water to aggregate and form flocs.
 
 <div class="alert alert-block alert-danger">
 What is the rapid-mix chamber? Is that the contact chamber?
 </div>
 - No, I guess I did not know about to word it correctly (in the lab, the portion that shoots coagulant through the system about 20 RPM).
 
-Parameters, such as pH, temperature, alkalinity, composition of precipitates and mixing speeds can impact how effective the coagulation process is. It has been researched that alum coagulant performs at its maximum capacity when immersed within a solution of pH levels between 6 and 7. Coagulant, when introduced to high alkalinity water, may need to be used in large amounts to stabilize pH at an optimal level. This is important because if an insufficient amount of coagulant is administered, many problems can occur, such as the pipe corrosion, pH destabilization and the formation of residues that can clog pipes. Another parameter that can dictate the quality of the coagulation-flocculation process is temperature. Lower temperature waters tend to “decrease the hydrolysis and precipitation kinetics” (Hart). The residues that clog the pipes is the actual coagulant itself, or clay partciles that may be too big to remove or flow the rest of the system.
+Parameters, such as pH, temperature, alkalinity, composition of precipitates and mixing speeds can impact how effective the coagulation process is. Previous research shows that alum coagulant performs at its maximum capacity when immersed within a solution of pH levels between 6 and 7. Coagulant, when introduced to high alkalinity water, may need to be used in large amounts to stabilize pH at an optimal level. This is important because if an insufficient amount of coagulant is administered, many problems can occur, such as pipe corrosion, pH destabilization, and the formation of residues that can clog pipes. Residues may be the coagulant itself or the accumulation of influent particles that may be too large to remove and restrict flow through the pipe. Another parameter that can dictate the quality of the coagulation-flocculation process is temperature. Lower temperature waters tend to “decrease the hydrolysis and precipitation kinetics” (Hart, 1979).
 
-The abstract of a recent study proposed a new method of regulating pH and coagulant: "A multiple model predictive control (MMPC) strategy is proposed for coagulation control in water treatment plants. The proposed control strategy is developed to work effectively with different local operating regions of the chemical dosing unit where coagulation takes place."
-
-By being able to assess the pH vales and the surface charges simultaneously, operational chares and the reduction of waste can be combatted. Similarly, the improvement of water quality can be enhanced, and thus the coagulation control can be effectively implemented. So yes, in theory there should be a way to regulate the pH levels themslves apart of the actual coagulant itself, which is much more cost effective given the price for coagulant (F. Manenti, 2011).
+A recent study proposed a new method of regulating pH and coagulant: "A multiple model predictive control (MMPC) strategy is proposed for coagulation control in water treatment plants. The proposed control strategy is developed to work effectively with different local operating regions of the chemical dosing unit where coagulation takes place" (Bello et al., 2014). The method involves controlling the surface charge and pH values of chemically treated water at the same time. By being able to assess the pH values and  surface charges simultaneously, operational costs and the amount of waste can be reduced. Similarly, the improvement of water quality can be enhanced, and thus the coagulation control can be effectively implemented. So yes, in theory there should be a way to regulate the pH levels themslves apart of the actual coagulant itself, which is much more cost effective given the price for coagulant.
 
 
 <div class="alert alert-block alert-danger">
@@ -95,9 +93,9 @@ Can you regulate pH separately so that you do not require as much coagulant? (Co
 What residues clog the pipes.
 </div>
 
-Through flow and tracer transport methods, vorticity field, a microscopic measure of rotation (vector) at a given point in the fluid, is determined to be the key parameter to use to discern areas of jet flow (where the water speed travels in a much faster, concentarted area) and recirculation zones (where the water circulates repeatedly) within the contact chamber. The vorticity gradient and the flexion product, the result of a bending movement around a 'joint' within the piping, shed the most mathematical insights on the topic of differentiating recirculation and jet zones, as well as fluid to fluid flow separations. From this, the team will have a mathematical analysis of the validity behind the qualitative results. The ratio of t90/t10, or the Morrill index, describes the travel time of 10% and 90% of the cumulative normalized tracer concentration observed at the outlet of the contact chamber.
+Through flow and tracer transport methods, vorticity field, a microscopic measure of rotation (vector) at a given point in the fluid, is determined to be the key parameter to use to discern areas of jet flow (where the water speed travels in a much faster, concentrated area) and recirculation zones (where the water circulates repeatedly) within the contact chamber. The vorticity gradient and the flexion product, the result of a bending movement around a 'joint' within the piping, shed the most mathematical insights on the topic of differentiating recirculation and jet zones, as well as fluid to fluid flow separations. From this, the team will have a mathematical analysis of the validity behind the qualitative results. The ratio of t90/t10, or the Morrill index, describes the travel time of 10% and 90% of the cumulative normalized tracer concentration observed at the outlet of the contact chamber.
 
-Understanding all of these terms is vital to how the function of the conyact chmaber may play a huge role in water treatment efficiency. If allof these factors weren't taken into consideration, the way that the contact chamber would function could be skewed and could ultimtely prove to be a waste of resources and time.
+Understanding all of these terms is vital to how the function of the contact chmaber may play a huge role in water treatment efficiency. If allof these factors weren't taken into consideration, the way that the contact chamber would function could be skewed and could ultimtely prove to be a waste of resources and time.
 
 <div class="alert alert-block alert-danger">
 Revise first sentence for readability.
@@ -109,25 +107,30 @@ Lots of jargon here that you need to explain/define: vorticity field, flexion, j
 Why do all of those things matter?
 </div>
 
+<div class="alert alert-block alert-danger">
+I propose we get rid of this paragraph - CT
+</div>
+
 The basis with which the indices were characterized was classified as a "black box" analysis since the mechanisms of mixing within the contact chamber were overlooked or not analyzed. The objective of this experimental analysis of behavior of the conservative tracer in the contact chamber is to note the mixing of the chemical within recirculation zones where the tracer is briefly retained before release, as well as the interactions between the jet zones and recirculation zones. Identifying these interactions were important because they both played a role in the aggregate mixing process. The difficulties posed in this analysis were the monitoring methods utilized in literature. The index bases were derived by measurements made only at specific outlet points throughout the system. There was no data highlighting the mechanics of mixing within the contact chamber itself (Demirel and Aral, 2016).
 
 <div class="alert alert-block alert-danger">
 Are the jet zones and recirculation zones not in the contact chamber?
 
 I am a bit lost as to what this all means.
+<div class="alert alert-block alert-danger">
+Get rid of this paragraph too, or explain better - CT
+</div>
 -I believe that understanding hwo everything interacted and what they did when they were brought together would provide some more clarity into what we were doing. I changed it a little so it made more sense!
 
 What is your source for this?
 </div>
 - Sorry about the source kind of being crammed into the paragraph. Just like in an earlier comment, I just shifted it to the end because it covers the whole topic of discussion and for clarity purposes.
 
-**Previous Work**
+##Previous Work
 
-In previous semesters, the contact chamber teams in AguaClara have assessed the efficacy of the addition of a contact chamber before flocculation in order to promote greater collision frequency between the coagulant nanoparticles and the suspended solids. This method increased residence times and promoted thorough mixing of the coagulant so that there is a uniform level of treatment in the chamber.
+In previous semesters, the AguaClara contact chamber subteams have assessed the efficacy of the addition of a contact chamber before flocculation in order to promote greater collision frequency between the coagulant nanoparticles and the suspended solids. It was hypothesized that increasing residence time would promote collisions (Akpan et al., 2017).
 
-The contact chamber was modified from the previous semester's design. The contact chamber has a diameter of 2.54 cm (1 in) and a length of 25.4 cm (10 in). The length of the contact chamber is ten times the diameter to model the length of the turbulent jet stream (Figure \ref{turbulent-jet}). Since the turbulent jet creates eddies that recirculate water at the outer edges of the jet stream, by minimizing the recirculation near pipe walls, the amount of coagulant that adheres to the walls can be reduced.
-
-(picture of contact chamber)
+The current contact chamber was modified from the contact chamber designed by the Spring 2017 subteam. The contact chamber has a diameter of 2.54 cm (1 in) and a length of 25.4 cm (10 in). The length of the contact chamber is ten times the diameter to model the length of the turbulent jet stream. Since the turbulent jet creates eddies that recirculate water at the outer edges of the jet stream, by minimizing the recirculation near pipe walls, the amount of coagulant that adheres to the walls can be reduced.
 
 Many of the experiments that were conducted revolved around the ideas of using high concentrations of coagulant to develop a floc blanket (Experiment 2) and using water pump speeds to determine the upward velocity rate and NTU (Experiments 1 & 3).
 
@@ -141,7 +144,7 @@ In Experiment 1, 2.5 mL of 70.9 g/L concentration PACl was added to 5 L of disti
 
 Other experiments were also carried out to determine the effectiveness of the contact chamber. Trials were ran, without the presence of the contact chamber, After ensuring that the influent turbidity could stabilize at 10 NTU despite initial startup complications, experiments were run to compare performance of the system with and without a contact chamber. Experiments with the contact chamber yielded higher effluent turbidity than experiments without the contact chamber. It was hypothesized that there was particle buildup in the effluent turbidimeter, so the effluent turbidimeter was emptied and refilled with distilled water. Cleaning out the turbidimeter notably decreased effluent turbidity, from approximately 4 NTU to 0.3 NTU.
 
-The Fall 2017 Team concluded that the effluent turbidity without the contact chamber was consistently lower than the effluent turbidity with the contact chamber. These results suggest that the contact chamber was not effective in improving plant efficiency. However, more tests should be run to determine why the addition of the contact chamber was not only ineffective in improving plant efficiency, but actually increased the effluent turbidity, worsening the plant efficiency.  Several recent modifications to the experiment setup and methods could have had an impact on the results. The addition of the 1 RPM pump at the waste drain controlled water flow through the tube settler, allowing most of the flow to flow up through the settler to the effluent turbidimeter, rather than allowing most of the flow to drain into the waste, as in previous experiments.  
+The Fall 2017 Team concluded that the effluent turbidity without the contact chamber was consistently lower than the effluent turbidity with the contact chamber. These results suggest that the contact chamber was not effective in improving plant efficiency. However, more tests should be run to determine why the addition of the contact chamber was not only ineffective in improving plant efficiency, but actually increased the effluent turbidity, worsening the plant efficiency.  Several recent modifications to the experiment setup and methods could have had an impact on the results. The addition of the 1 RPM pump at the waste drain controlled water flow through the tube settler, allowing most of the flow to flow up through the settler to the effluent turbidimeter, rather than allowing most of the flow to drain into the waste, as in previous experiments (Tsang et al., 2017).  
 
 ## Methods
 ### Experimental Design
@@ -155,7 +158,7 @@ Identical implies being exactly the same? Is it exactly the same or similar? If 
 </div>
 
 ![Spring2018Schematic](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/Spring2018Schematic.jpg?raw=true)
-Figure: The experiment setup includes a contact chamber, and a coiled flocculator.
+Figure: The experiment setup includes a contact chamber and a coiled flocculator.
 
 <div class="alert alert-block alert-danger">
 What is the figure number? (issue propogates throughout report)
@@ -163,9 +166,10 @@ What is the figure number? (issue propogates throughout report)
 Great figure, very clear
 </div>
 
-![Complete_setup](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/Complete_setup.jpg?raw=true)
+![Complete_setup](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/bench_setup.png?raw=true)
 
-Figure: In the experimental setup, the water and clay mixture flows through the influent turbidimeter to the contact chamber. Coagulant is injected immediately before the contact chamber. The 1 rpm pump was added to control upflow velocity in the sedimentation tube.
+
+Figure: Image of bench setup. The flow accumulator and needle valve were added to damp pressure oscillations due to the water pump.
 
 The experiment setup models the flow of water through a plant on a lab scale (Figure):
 
@@ -174,13 +178,11 @@ The experiment setup models the flow of water through a plant on a lab scale (Fi
 3. The influent turbidimeter measures the turbidity of the clay-water mixture before entering the contact chamber and flocculator.
 4. Coagulant is injected immediately before the contact chamber and mixes with the clay-water mixture in the contact chamber.
 5. The coiled flocculator causes further collisions between clay particles and coagulant.
-6. The sedimentation tube allows flocs to settle out of the water. The 1 rpm waste pump drains the excess flocs from the sedimentation tube.
-7. The effluent turbidimeter measures the turbidity of the water exiting the plant.
 
 
 The influent turbidity was controlled using a Proportional-Integral-Derivative (PID) controller on ProCoDA. ProCoDA (Process Controller and Data Acquisition) is a process control software created to automate pump control and generate datalogs ([Weber-Shirk, 2016](https://confluence.cornell.edu/display/AGUACLARA/ProCoDA)).
 
-The PID controller uses a feedback response loop to maintain the influent turbidity. The target influent turbidity was set to 10 NTU, and the values of P, i, and D were set to 0.5, 0.25, and 0, respectively.
+The PID controller uses a feedback response loop to maintain the influent turbidity. The target influent turbidity was set to 100 NTU, and the values of P (Proportional), i (Integral), and D (Derivative) were set to 0.5, 0.25, and 0, respectively. The values were selected using trial and error to optimize the response time of the PID controller.  
 
 <div class="alert alert-block alert-danger">
 Also define ProCoDA acronym
@@ -190,7 +192,7 @@ How did you select the NTU, P, i, and D values. If they were assumed then just s
 
 ![DiagramSchematic](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/Diagram%20Schematic.jpg?raw=true)
 
-Figure: Schematic of experimental setup. The PID controller adjusts the clay pump speed to maintain an influent turbidity of 100 NTU. The water pump and coagulant pump were kept constant at 76 rpm and 20 rpm, respectively. The water pump speed was calculated to achieve an upflow velocity in the sedimentation tube of 2 mm/s(calculations shown in Manual, python code section). The coagulant pump speed was adjusted experimentally to achieve an effluent turbidity of 2 NTU.
+Figure: Schematic of experimental setup. The PID controller adjusts the clay pump speed to maintain an influent turbidity of 100 NTU. The water pump and coagulant pump were kept constant at 76 rpm and 20 rpm, respectively. The water pump speed was calculated to achieve an upflow velocity in the sedimentation tube of 2 mm/s (calculations shown in Python code, listed under Manual). The coagulant pump speed was adjusted experimentally to achieve an effluent turbidity of 2 NTU.
 
 <div class="alert alert-block alert-danger">
 How did you know the speeds of 76 rpm and 20 rpm? Consider referencing these calculations (which you should put in the manual)
@@ -241,7 +243,7 @@ Figure: The redesigned contact chamber, with a length that is ten times the diam
 
 
 ### Procedure
-To maintain an upflow velocity in the sedimentation tube of 2 mm/s, the water pump was kept constant at 76 rpm, while the flow rate contributions of the clay and coagulant were assumed to be negligible, due to the low flow rate through the microbore tubing. PID control was used to vary the speed of the clay pump to reach the target influent turbidity of 100 NTU. The clay stock solution was diluted, so that the clay pump speed could be reduced to minimize the flow rate contribution of the clay pump. The concentration of the clay stock was 2 g/L. The coagulant dose was set by manual input to 20 RPM. The concentration of coagulant stock was 0.1418 g/L. Both the coagulant stock concentration and pump speed are subject to change as the system is altered.
+To maintain an upflow velocity in the sedimentation tube of 2 mm/s, the water pump was kept constant at 76 rpm, while the flow rate contributions of the clay and coagulant were assumed to be negligible, due to the low flow rate through the microbore tubing. PID control was used to vary the speed of the clay pump to reach the target influent turbidity of 100 NTU. The clay stock solution was diluted, so that the clay pump speed could be reduced to minimize the flow rate contribution of the clay pump. The concentration of the clay stock was 2 g/L. The coagulant dose was set by manual input to 20 RPM. The concentration of coagulant stock was 0.1418 g/L.
 
 <div class="alert alert-block alert-danger">
 Keep tenses consistent
@@ -259,7 +261,7 @@ Prior to running experiments, a red dye test was conducted to observe the fluid 
 Did the test have both red dye and coagulant?
 </div>
 
-It was observed that there was more recirculation in the contact chamber than expected, which may have caused a significant portion of the coagulant to adhere to the walls of the contact chamber, rather than interact with the clay particles in the water. It is hypothesized that the slow flow rate of the coagulant injection into the contact chamber did not allow the coagulant to mix well, which may have contributed to the poor performance of the contact chamber in previous experiments.
+The red dye test indicated a long residence time and a lot of recirculation within the contact chamber, which may have caused a significant portion of the coagulant to adhere to the walls of the contact chamber, rather than interact with the clay particles in the water. It is hypothesized that the slow flow rate of the coagulant injection into the contact chamber did not allow the coagulant to mix well, which may have contributed to the poor performance of the contact chamber in previous experiments.
 
 <div class="alert alert-block alert-danger">
 How much recirculation was expected and how did you quantify that?
@@ -337,7 +339,11 @@ This is the first time you bring up headloss across the flocculator. No new idea
 </div>
 
 ## Bibliography
-Balik, Y., & Aydin, S. (2015). Coagulation/flocculation optimization and sludge production for pre-treatment of paint industry wastewater. Desalination and Water Treatment, 57(27)
+Akpan, Teuffer, and Zhang (2017). Rapid Mix Contact Chamber, Spring 2017.
+
+Balik, Y., & Aydin, S. (2015). Coagulation/flocculation optimization and sludge production for pre-treatment of paint industry wastewater. Desalination and Water Treatment, 57(27).
+
+Bello, Oladipupo & Hamam, Yskandar & Djouani, Karim. (2014). Coagulation process control in water treatment plants using multiple model predictive control. AEJ - Alexandria Engineering Journal. Vol. 53. Pages 939–948. 10.1016/j.aej.2014.08.002.
 
 Bratby J. (2006) Coagulation and Flocculation in Water and wastewater Treatment. IWA Publishing, London, Seattle.
 
@@ -346,6 +352,8 @@ EPA (2018, January). Conventional Treatment.
 Frederick L. Hart, Journal (Water Pollution Control Federation), Improved Hydraulic Performance of Chlorine Contact Chambers) Dec 1979.
 
 Jiang, J., “The role of coagulation in water treatment” (2015, February 19).
+
+Tsang, C., Yun, Y., Gassaway, B. Contact Chamber, Fall 2017.
 
 # Manual
 <!-- The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team. -->
