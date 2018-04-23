@@ -188,9 +188,9 @@ Also define ProCoDA acronym
 How did you select the NTU, P, i, and D values. If they were assumed then just say from where. Also what do P, i, and D mean?
 </div>
 
-![PIDcontrol](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/PIDcontrol.png?raw=true)
+![DiagramSchematic](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/Diagram%20Schematic.jpg?raw=true)
 
-Figure: Schematic of experimental setup. The PID controller adjusts the clay pump speed to maintain an influent turbidity of 10 NTU. The water pump and coagulant pump were kept constant at 76 rpm and 20 rpm, respectively. The water pump speed was calculated to achieve an upflow velocity in the sedimentation tube of 2 mm/s. The coagulant pump speed was adjusted experimentally to achieve an effluent turbidity of 2 NTU.
+Figure: Schematic of experimental setup. The PID controller adjusts the clay pump speed to maintain an influent turbidity of 100 NTU. The water pump and coagulant pump were kept constant at 76 rpm and 20 rpm, respectively. The water pump speed was calculated to achieve an upflow velocity in the sedimentation tube of 2 mm/s(calculations shown in Manual, python code section). The coagulant pump speed was adjusted experimentally to achieve an effluent turbidity of 2 NTU.
 
 <div class="alert alert-block alert-danger">
 How did you know the speeds of 76 rpm and 20 rpm? Consider referencing these calculations (which you should put in the manual)
@@ -241,7 +241,7 @@ Figure: The redesigned contact chamber, with a length that is ten times the diam
 
 
 ### Procedure
-To maintain an upflow velocity in the sedimentation tube of 2 mm/s, the water pump was kept constant at 76 rpm, while the flow rate contributions of the clay and coagulant were assumed to be negligible, due to the low flow rate through the microbore tubing. PID control was used to vary the speed of the clay pump to reach the target influent turbidity of 10 NTU. The clay stock solution was diluted, so that the clay pump speed could be reduced to minimize the flow rate contribution of the clay pump. The concentration of the clay stock was 0.4 g/L. The coagulant dose was set by manual input to 20 RPM. The coagulant stock and pump speed were fine-tuned to achieve an effluent turbidity of approximately 2 NTU. The concentration of coagulant stock was 0.1418 g/L. Both the coagulant stock concentration and pump speed are subject to change as the system is altered.
+To maintain an upflow velocity in the sedimentation tube of 2 mm/s, the water pump was kept constant at 76 rpm, while the flow rate contributions of the clay and coagulant were assumed to be negligible, due to the low flow rate through the microbore tubing. PID control was used to vary the speed of the clay pump to reach the target influent turbidity of 100 NTU. The clay stock solution was diluted, so that the clay pump speed could be reduced to minimize the flow rate contribution of the clay pump. The concentration of the clay stock was 2 g/L. The coagulant dose was set by manual input to 20 RPM. The concentration of coagulant stock was 0.1418 g/L. Both the coagulant stock concentration and pump speed are subject to change as the system is altered.
 
 <div class="alert alert-block alert-danger">
 Keep tenses consistent
@@ -249,7 +249,7 @@ Keep tenses consistent
 Where are you getting these values from?
 </div>
 
-Before running an experiment, all valves were opened (raw water, floc weir outlet, and the waste stream outlet). The PID set point was adjusted from the OFF state to ON state, initiating the clay pump to feed the clay stock solution into the system. The water pump and coagulant pump were switched on and set to pre-determined pump speeds. The influent turbidity was allowed to reach its target turbidity of 10 NTU, and changes in the effluent turbidity were observed.
+Before running an experiment, all valves were opened (raw water, floc weir outlet, and the waste stream outlet). The PID set point was adjusted from the OFF state to ON state, initiating the clay pump to feed the clay stock solution into the system. The water pump and coagulant pump were switched on and set to pre-determined pump speeds. The influent turbidity was allowed to reach its target turbidity of 100 NTU, and changes in the headloss were observed.
 
 ## Results and Analysis
 ###Red Dye Test
@@ -281,7 +281,7 @@ Figure: The influent and effluent turbidimeter after an experiment runtime of 5 
 Is this a continuation of the red dye test or a new test?
 </div>
 
-The experiment was run for 5 hours to observe the formation of the floc blanket in the sedimentation tube. The results differed significantly from the results of previous experiments run in Fall 2017. All parameters were held consistent to the parameters used in the Fall 2017 experiments, except for the longer experiment runtime. It was observed that the effluent turbidity did not decrease sufficiently. Some possible sources of errors were identified, and possible solutions were attempted. The first noticeable issue was the growth of algae on the sides of the sedimentation tube, which may have had an impact on the effluent turbidity. To solve this problem, the sedimentation tube was cleaned with pipe brushes and bleach. Another possible source of error is the lack of a floc blanket in the sedimentation tube. In the Fall 2017 experiments, the sedimentation tube was not cleaned out in between experiments, which allowed a floc blanket to form after repeated trials. In order to standardize results, the sedimentation tube was drained in between each experiment. However, since the influent turbidity very low, at 10 NTU, it was time-consuming to form a new floc blanket for each experiment. Therefore, the sedimentation tank was redesigned with smaller dimensions to allow the floc blanket to form in a shorter time period. Shortening the time taken to form the floc blanket increased the efficiency of experiments.
+The experiment was run for 5 hours to observe the formation of the floc blanket in the sedimentation tube. The results differed significantly from the results of previous experiments run in Fall 2017. All parameters were held consistent to the parameters used in the Fall 2017 experiments, except for the longer experiment runtime. It was observed that the effluent turbidity did not decrease sufficiently. Some possible sources of errors were identified, and possible solutions were attempted. The first noticeable issue was the growth of algae on the sides of the sedimentation tube throughout multiple experiments, which may have had an impact on the effluent turbidity. To solve this problem, the sedimentation tube was cleaned with pipe brushes and bleach. Another possible source of error is the lack of a floc blanket in the sedimentation tube. In the Fall 2017 experiments, the sedimentation tube was not cleaned out in between experiments, which allowed a floc blanket to form after repeated trials. In order to standardize results, the sedimentation tube was drained in between each experiment. However, since the influent turbidity very low, at 10 NTU, it was time-consuming to form a new floc blanket for each experiment. Although increasing the turbidity would fasten the floc blanket formation, the team's main goal was to test the process with low turbidity, which is the most of the days in the plant except when there is heavy rain. Therefore, the sedimentation tank was redesigned with smaller dimensions to allow the floc blanket to form in a shorter time period. Shortening the time taken to form the floc blanket increased the efficiency of experiments.
 
 <div class="alert alert-block alert-danger">
 Include your hypotheses in the introduction!
@@ -297,7 +297,7 @@ Why not increase turbidity is the low turbidity was causing slow floc blanket fo
 There is a lot of good stuff in this seciton but it is mostly results with not enough analysis.
 </div>
 
-Experiments were conducted with and without the contact chamber to compare increase in headloss across the flocculator over time.
+The scope of the investigation was shifted from lowering the effluent turbidity with low initial turbidity to lowering the headloss occurs across the flocculator. This was because the main purpose of the contact chamber use is to reduce the coagulant particles sticking on to the walls of the flocculator so that it would require cleaning process very often, which is not preferred. After the decision was made, the experimental apparatus was changed from before. The sedimentation tube settler, 1 RPM Waste pump and effluent turbidimeter were discarded and pressure sensor, flow accumulator and needle valve were added to the apparatus. The experiments with and without the contact chamber were conducted to identify the difference in healoss before and after the coiled flocculator. The experiments were not conducted for the same time, but the main comparison was between the slopes of increasing headloss over time. Further investigation is required in how long of the experiment would be sufficient to determine the rate of increase.
 
 ![4-15-2018](https://github.com/AguaClara/contact_chamber/blob/master/Data%20Analysis/Graphs/4-15-2018.png?raw=true)
 Figure: Headloss across the flocculator in centimeters of water in experimental setup without the contact chamber. The positive slope indicates that the headloss increased over time. The first trial of the experiment was run for approximately 8.4 hours.
@@ -305,9 +305,19 @@ Figure: Headloss across the flocculator in centimeters of water in experimental 
 ![4-16-2018](https://github.com/AguaClara/contact_chamber/blob/master/Data%20Analysis/Graphs/4-16-2018.png?raw=true)
 Figure: Headloss across the flocculator in centimeters of water in experimental setup without the contact chamber. The positive slope indicates that the headloss increased over time. The second trial of the experiment was run for approximately 8.4 hours.
 
+Interestingly, the two trials without the contact chamber showed slopes that differed by factor of approximately 2. The team could not tell why such discrepancy occurs where starting pressure difference was same between 2 and the coagulant pump speed as well as influent turbidity control was same for 2. However, the experiments with the contact chamber were determined to be conducted, since depending on the result, factor of 2 might be not a significant difference.
+
+![4-19-2018](https://github.com/AguaClara/contact_chamber/blob/master/Data%20Analysis/Graphs/4-19-2018.png?raw=true)
+Figure: Headloss across the flocculator in centimeters of water in experimental setup with the contact chamber. The positive slope indicates that the headloss increased over time. The first trial of the experiment was run for approximately 19 hours.
+
+![4-21-2018](https://github.com/AguaClara/contact_chamber/blob/master/Data%20Analysis/Graphs/4-21-2018.png?raw=true)
+Figure: Headloss across the flocculator in centimeters of water in experimental setup with the contact chamber. The positive slope indicates that the headloss increased over time. The second trial of the experiment was run for approximately 19 hours.
+
+From the two experiments with contact chamber suggested that even though there is discrepancy between slopes, the increase in headloss was definitely lower with the contact chamber than without the contact chamber. Although there needs to be further investigation of how much more effective the contact chamber is, it can for sure be concluded that contact chamber achieves its goal of reducing the headloss across the flocculator.
+
 ## Conclusions
 
-From the series of tests to see the efficiency of contact chamber and the sedimentation tank in the system, it is concluded that the change in design might be required in both units. So, the next steps for the team will be conduct more research on fluid dynamics including the particles as well as identify the relationship between the residence time and particle removal.
+There was a change in the entire experimental apparatus. The experiments were conducted to measure the change in headloss across the coiled flocculator with and without contact chamber. From the series of experiments, there was discrepancy in the rate of headloss increase with same conditions. However, since the difference between the rate of increase in headloss of experiment with and without the contact chamber was clearly observed, it can be concluded that contact chamber is a unit that should be included in the entire system to reduce the coagulant particles attaching to the flocculator walls.
 
 <div class="alert alert-block alert-danger">
 Do you have enough results to speak to efficiency of sedimentation tank?
@@ -316,8 +326,7 @@ This is very vague. What did you conclude about the design of your apparatus? Wh
 </div>
 
 ## Future Work
-Over the next several weeks, the sedimentation tube will be redesigned with smaller dimensions.
-With the newly designed sedimentation tube and contact chamber, it is expected that results will be more consistent. It is hypothesized that ensuring the formation of the floc blanket during each experiment will improve results, thereby reducing the effluent turbidity. Another future task is measuring the headloss across the flocculator to quantify the impact of coagulant adhering to the walls of the flocculator. The contact chamber theoretically increases the probability of collisions between the clay particles and coagulant before the mixture enters the flocculation system. As a result, it is predicted that the contact chamber will allow the clay particles more time to interact with the coagulant, which will decrease the amount of free coagulant that adheres to the walls of the flocculator, and therefore decrease headloss across the flocculator.
+ The contact chamber theoretically increases the probability of collisions between the clay particles and coagulant before the mixture enters the flocculation system. As a result, it is predicted that the contact chamber will allow the clay particles more time to interact with the coagulant, which will decrease the amount of free coagulant that adheres to the walls of the flocculator, and therefore decrease headloss across the flocculator. Since this was observed in the series of experiments, now the team will further investigate the difference in the efficiency between different dimensions of contact chamber. There will be comparison between the current team's contact chamber and the Spring 2018 Team's contact chamber. Also, the team will work on achieving more consistency in the experiments.
 
 <div class="alert alert-block alert-danger">
 For the next experiments you expect more consistency? but do you expect them to be more favorable in terms of efficiency?
