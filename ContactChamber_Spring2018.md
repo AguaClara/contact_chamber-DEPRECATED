@@ -7,14 +7,7 @@ Please do not delete my comments. Address them for the next submission and then 
 </div>
 
 ## Abstract
-<!-- Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max) -->
 When coagulant is introduced to turbid water, coagulant nanoparticles attach to suspended solids in the water. The coagulant will promote the sticking of partcicles so that the collision probablity may increase. As more collisions occur, these particles continue to adhere to each other, promoting the growth of flocs. However, a substantial portion of the coagulant dose adheres to the flocculator walls rather than influent particles, requiring a higher than necessary coagulant dose to compensate for this effect. In order to minimize the amount of coagulant wasted, an apparatus called the contact chamber was fabricated to increase the probability of collisions between the influent particles and coagulant by increasing residence time. The Spring 2018 Contact Chamber team analyzed the performance of the newly redesigned contact chamber by analyzing the headloss across the flocculator with and without the contact chamber.
-
-<div class="alert alert-block alert-danger">
-Why wastage and not just waste? Wastage is the loss or the geenral process in which things may be wasted. So, the general phenomenon in which it occurs may be the why we would want to use wastage vs waste as a term.
-
-Does coagulant cause collisions? Or does it promote particles sticking together once they've collided?
-</div>
 
 ## Introduction
 In normal conditions, the AguaClara plants typically operate at a relatively low influent turbidity. However, the plants operate at optimal efficiency with a high influent turbidity; this is due to the fact that with a higher concentration of suspended solids at the influent, there is a greater probability that the particles in the water will come in contact with the coagulant nanoparticles. Therefore, at low influent turbidity conditions, the coagulant has a lower probability of coming into contact with influent particles. The excess coagulant that does not adhere to the influent particles instead attaches to the walls of the flocculator, resulting in coagulant buildup within the flocculator. This issue also occurs in low flow rate systems, such as the 1 L/s plants.
@@ -36,44 +29,25 @@ where delta h is the pressure loss in meters, $f_{D}$ is the Darcy friction fact
 Currently, the AguaClara plants are not using contact chambers because there has not been enough evidence to support the utility of it. Previous semesters have had mixed results in demonstrating that the contact chamber significantly reduces the amount of coagulant that adheres to flocculator walls. We made changes in our experiments this semester to rectify inconsistencies and reduce the potential for error. We hope that in the future after this semester's series of experiments, we will be able to determine with certainty the efficacy of the contact chamber and introduce the device to the AguaClara plants. It is hypothesized that the addition of the contact chamber will result in a lower increase of headloss; thus, less coagulant will adhere to the walls of the flocculator, and the plant will run more efficiently.
 
 <div class="alert alert-block alert-danger">
-Well written, but if the issue is too much coagulant comparatively to the low flow rate of water, then why not just adjust the dose of coagulant? Isn't that what the chemical dose controller is supposed to do? Regulate the coagulant dosing based on flow rate?
-
-
-Is a contact chamber currently in use in AguaClara plants?
-
-Include information on your experiments here as well.
+Avoid first person
 </div>
 
 ## Literature Review
 The drinking water treatment processes are coagulation and flocculation, sedimentation, filtration, and disinfection. In the first steps, coagulation and flocculation, particles aggregate together to form larger particles. The coagulation and flocculation process allows maximum aid in removing sediment particles in water before the filtration process. In the late 1940’s, a new theory was developed that distinguished two modes of removing colloidal impurities. This process, double layer compression, also known as coagulation, has been widely known to be cost-effective and has revolutionized the water treatment process (Balik and Aydin, 2015).
 
 <div class="alert alert-block alert-danger">
-Mention that flocculation occurs before sedimentation as well as filtration.
-
-Give the new process a name in the paragraph above even though you discuss it in detail below.
+I would eliminate the word new since you talk about coagulation in the previous sentence.
 </div>
 
 Coagulation describes the overcoming of the repulsive forces between the particles to adhere together and precipitate. Stable particles of clay and organic substances found in influent raw water are negatively charged, causing particles to repel each other and remain suspended in solution. As positively charged coagulant is added to the water, the negative charges are neutralized, allowing the particles to adhere together into aggregations called “microflocs" (Jiang, 2015).
 
-<div class="alert alert-block alert-danger">
-Is the (Jiang, 2015) source, the source for the entire paragraph? If so, then put the intext citation at the end.
-</div>
-
 The coagulants that are normally used for drinking water treatment tend to be predominantly inorganic salts of aluminum or iron, alum in particular being the most ubiquitous. When these coagulants are introduced to water, the aluminum ions have a tendency to hydrolyze in an unstable manner, eventually forming “a range of metal hydrolysis species.” AguaClara plants utilize polyaluminum chloride (PACl), a more commercially available polymeric aluminum coagulant.
 
 <div class="alert alert-block alert-danger">
-Wastewater implies toilet wastes, use the term potable water or drinking water.
+Where does this quote come from?
 </div>
 
 In a study of coagulation kinetics, batch experiments were conducted to examine the different ways that PACl and alum destabilize particles and the different factors that affect how quickly particles are destabilized. At low temperatures, PACl can be advantageous over traditional coagulants because temperature fluctuation has less of an impact on the coagulant efficacy. Previous research showed that the rate of collisions between particles is slower than the rate of particle destabilization; thus, the rate at which collisions occur is the rate-determining step. Therefore, the efficiency of the coagulation process depends on the rate of collisions, and as a result, optimizing the collision rate would have the greatest impact on coagulant efficacy (Pablo Cañizares, 2007).
-
-<div class="alert alert-block alert-danger">
-Who did these experiments? What is your source?
-
-What does it mean for the PACl to be hydrolyzed?
-
-Wouldn't collisions be the rate-determining step because it is slower? I am confused as to why the quicker process is the rate-determining step.
-</div>
 
 After the coagulation process, the process of ‘precipitate enmeshment,’ also known as flocculation, begins. The rapid mixing stage can be considered one of the most vital components of the coagulation-flocculation processes. At this stage, primary flocs tend to form and destabilization reactions occur (Jiang, 2015). The smaller particles are physically enmeshed by the metal precipitates previously introduced. This process causes the particles in the water to aggregate and form flocs.
 
@@ -82,18 +56,26 @@ What is the rapid-mix chamber? Is that the contact chamber?
 </div>
 - No, I guess I did not know about to word it correctly (in the lab, the portion that shoots coagulant through the system about 20 RPM).
 
+<div class="alert alert-block alert-danger">
+Just clarify in the report.
+</div>
+
 Parameters, such as pH, temperature, alkalinity, composition of precipitates and mixing speeds can impact how effective the coagulation process is. Previous research shows that alum coagulant performs at its maximum capacity when immersed within a solution of pH levels between 6 and 7. Coagulant, when introduced to high alkalinity water, may need to be used in large amounts to stabilize pH at an optimal level. This is important because if an insufficient amount of coagulant is administered, many problems can occur, such as pipe corrosion, pH destabilization, and the formation of residues that can clog pipes. Residues may be the coagulant itself or the accumulation of influent particles that may be too large to remove and restrict flow through the pipe. Another parameter that can dictate the quality of the coagulation-flocculation process is temperature. Lower temperature waters tend to “decrease the hydrolysis and precipitation kinetics” (Hart, 1979).
 
 A recent study proposed a new method of regulating pH and coagulant: "A multiple model predictive control (MMPC) strategy is proposed for coagulation control in water treatment plants. The proposed control strategy is developed to work effectively with different local operating regions of the chemical dosing unit where coagulation takes place" (Bello et al., 2014). The method involves controlling the surface charge and pH values of chemically treated water at the same time. By being able to assess the pH values and  surface charges simultaneously, operational costs and the amount of waste can be reduced. Similarly, the improvement of water quality can be enhanced, and thus the coagulation control can be effectively implemented. So yes, in theory there should be a way to regulate the pH levels themslves apart of the actual coagulant itself, which is much more cost effective given the price for coagulant.
 
 
 <div class="alert alert-block alert-danger">
-Can you regulate pH separately so that you do not require as much coagulant? (Coagulant is expensive)
-
-What residues clog the pipes.
+REmove the word "yes" in the last sentence
 </div>
 
 Through flow and tracer transport methods, vorticity field, a microscopic measure of rotation (vector) at a given point in the fluid, is determined to be the key parameter to use to discern areas of jet flow (where the water speed travels in a much faster, concentrated area) and recirculation zones (where the water circulates repeatedly) within the contact chamber. The vorticity gradient and the flexion product, the result of a bending movement around a 'joint' within the piping, shed the most mathematical insights on the topic of differentiating recirculation and jet zones, as well as fluid to fluid flow separations. From this, the team will have a mathematical analysis of the validity behind the qualitative results. The ratio of t90/t10, or the Morrill index, describes the travel time of 10% and 90% of the cumulative normalized tracer concentration observed at the outlet of the contact chamber.
+
+<div class="alert alert-block alert-danger">
+Split up first sentence into two.
+
+What are the sources for this paragraph?
+</div>
 
 Understanding all of these terms is vital to how the function of the contact chmaber may play a huge role in water treatment efficiency. If allof these factors weren't taken into consideration, the way that the contact chamber would function could be skewed and could ultimtely prove to be a waste of resources and time.
 
@@ -109,22 +91,28 @@ Why do all of those things matter?
 
 <div class="alert alert-block alert-danger">
 I propose we get rid of this paragraph - CT
+
+If you do not get rid of the paragraph, then please address the above comments for the final!
 </div>
 
 The basis with which the indices were characterized was classified as a "black box" analysis since the mechanisms of mixing within the contact chamber were overlooked or not analyzed. The objective of this experimental analysis of behavior of the conservative tracer in the contact chamber is to note the mixing of the chemical within recirculation zones where the tracer is briefly retained before release, as well as the interactions between the jet zones and recirculation zones. Identifying these interactions were important because they both played a role in the aggregate mixing process. The difficulties posed in this analysis were the monitoring methods utilized in literature. The index bases were derived by measurements made only at specific outlet points throughout the system. There was no data highlighting the mechanics of mixing within the contact chamber itself (Demirel and Aral, 2016).
 
 <div class="alert alert-block alert-danger">
-Are the jet zones and recirculation zones not in the contact chamber?
 
-I am a bit lost as to what this all means.
 <div class="alert alert-block alert-danger">
 Get rid of this paragraph too, or explain better - CT
 </div>
 -I believe that understanding hwo everything interacted and what they did when they were brought together would provide some more clarity into what we were doing. I changed it a little so it made more sense!
 
-What is your source for this?
+NM - Changes make things clearer. I recommend reorganizing it a bit for flow and understandability. Also feel free to delete comments in this area only because it is getting confusing having so many!
 </div>
 - Sorry about the source kind of being crammed into the paragraph. Just like in an earlier comment, I just shifted it to the end because it covers the whole topic of discussion and for clarity purposes.
+
+<div class="alert alert-block alert-danger">
+Definitely improved but continue to revise because it is difficult information to digest. I recommend that you redefine "indices" as the ones talked about two paragraphs ago or move the middle paragraph to the end.
+
+Is the experimental analysis in sentence two you analysis or?
+</div>
 
 ##Previous Work
 
@@ -134,37 +122,51 @@ The current contact chamber was modified from the contact chamber designed by th
 
 Many of the experiments that were conducted revolved around the ideas of using high concentrations of coagulant to develop a floc blanket (Experiment 2) and using water pump speeds to determine the upward velocity rate and NTU (Experiments 1 & 3).
 
+<div class="alert alert-block alert-danger">
+The concept of a floc blanket makes me wonder about the geometry of the contact chamber and the flow patterns. Is there a way to briefly explain that or show it in a diagram?
+
+Where these experiments (1, 2, and 3) done by the Spring 2017 team? I am getting confused if you are talking about current or past experiments (I would guess past because this is the previous work section, but make it clear)
+</div>
+
 The water pump speed was initially calculated using a target upflow velocity of 3 mm/s in the sedimentation tube. However, since the AguaClara High Rate Sedimentation subteam reduced the upflow velocity to 2 mm/s, the water pump was recalculated. The flow rates of the coagulant and clay inflow were assumed to be negligible.
 
+<div class="alert alert-block alert-danger">
+Check this value with HRS again if this is current.
+</div>
+
 In the first experiment, the water pump speed was set to 114 rpm to achieve an upflow velocity in the sedimentation tube of 3 mm/s. The main purpose of this experiment was to determine an appropriate coagulant dose which would yield an effluent turbidity of 2 NTU, by varying the coagulant pump speed, which subsequently changed the mass flow rate of coagulant. It was observed that the sedimentation tube did not have enough floc particles to form a floc blanket; as a result, the team hypothesized that the lack of a floc blanket was causing the high effluent turbidity readings.
+
+<div class="alert alert-block alert-danger">
+What was influent turbidity? It is sometimes easier to put a target change in turbidity instead of a target effluent. i.e. a reduction of 50 NTU has more meaning than a target effluent of 2 NTU
+</div>
 
 In the second series of experiments, the coagulant dosage was increased to be eight times more concentrated than in Experiment 1. The reason for increasing the concentration by eight-fold was that at a 4 times higher concentration, the results were essentially the same as Experiment 1. In Experiment 2, the largest observable change was that the floc blanket started to form in the sedimentation tube. After the formation of the floc blanket, the effluent turbidity was significantly reduced.
 
 In Experiment 1, 2.5 mL of 70.9 g/L concentration PACl was added to 5 L of distilled water. However, since this coagulant dose did not have an effect on effluent turbidity even at high coagulant pump speeds, the coagulant stock concentration was increased by eight-fold. In Experiments 2 and 3, to prepare the coagulant solution, 1 liter of distilled water was added to a 1 liter-capacity bottle. It was essential to use distilled water because the coagulant particles could more effectively adhere to clay particles in a deionized environment. In order to achieve a floc blanket at such a low flow rate throughout the system, 4 mL of 70.9 g/L concentration PACl were added to the volume of water. Under the constraints set by PID control, the coagulant dose was continually adjusted throughout the experiment in o and is commonly used to characterize the mixing efficiency of a contact chamber.
 
+<div class="alert alert-block alert-danger">
+This section may be too detailed. A good rule of thumb is to try to not include too many numbers in the previous work section. Describing the coag conc as 8 times higher is good enough detail, the actual water and PACl conc are not important here. Trim it down
+</div>
+
 Other experiments were also carried out to determine the effectiveness of the contact chamber. Trials were ran, without the presence of the contact chamber, After ensuring that the influent turbidity could stabilize at 10 NTU despite initial startup complications, experiments were run to compare performance of the system with and without a contact chamber. Experiments with the contact chamber yielded higher effluent turbidity than experiments without the contact chamber. It was hypothesized that there was particle buildup in the effluent turbidimeter, so the effluent turbidimeter was emptied and refilled with distilled water. Cleaning out the turbidimeter notably decreased effluent turbidity, from approximately 4 NTU to 0.3 NTU.
 
-The Fall 2017 Team concluded that the effluent turbidity without the contact chamber was consistently lower than the effluent turbidity with the contact chamber. These results suggest that the contact chamber was not effective in improving plant efficiency. However, more tests should be run to determine why the addition of the contact chamber was not only ineffective in improving plant efficiency, but actually increased the effluent turbidity, worsening the plant efficiency.  Several recent modifications to the experiment setup and methods could have had an impact on the results. The addition of the 1 RPM pump at the waste drain controlled water flow through the tube settler, allowing most of the flow to flow up through the settler to the effluent turbidimeter, rather than allowing most of the flow to drain into the waste, as in previous experiments (Tsang et al., 2017).  
+<div class="alert alert-block alert-danger">
+Change ran to run (or avoid passive voice altogether)
+
+Issues with clarity and sentence structure
+
+So the clogged turbidimeter was the issue and the results saying that the contact chamber led to higher effluent turbidity were incorrect? or no?
+</div>
+
+The Fall 2017 Team concluded that the effluent turbidity without the contact chamber was consistently lower than the effluent turbidity with the contact chamber. These results suggest that the contact chamber was not effective in improving plant efficiency. However, more tests should be run to determine why the addition of the contact chamber was not only ineffective in improving plant efficiency, but actually increased the effluent turbidity, worsening the plant efficiency.  Several recent modifications to the experiment setup and methods could have had an impact on the results. The addition of the 1 RPM pump at the waste drain controlled water flow through the tube settler, allowing most of the flow to flow up through the settler to the effluent turbidimeter, rather than allowing most of the flow to drain into the waste, as in previous experiments (Tsang et al., 2017).
 
 ## Methods
 ### Experimental Design
 
 The experimental setup was similar to the other Particle Removal subteams, High G Flocculation and High Rate Sedimentation, to standardize results among the teams.
 
-<div class="alert alert-block alert-danger">
-Consider "experimental setup" rather than "experiment setup"
-
-Identical implies being exactly the same? Is it exactly the same or similar? If similar, how is it different
-</div>
-
 ![Spring2018Schematic](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/Spring2018Schematic.jpg?raw=true)
 Figure 2: The experiment setup includes a contact chamber and a coiled flocculator.
-
-<div class="alert alert-block alert-danger">
-What is the figure number? (issue propogates throughout report)
-
-Great figure, very clear
-</div>
 
 ![Complete_setup](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/bench_setup.png?raw=true)
 
@@ -172,6 +174,10 @@ Great figure, very clear
 Figure 3: Image of bench setup. The flow accumulator and needle valve were added to damp pressure oscillations due to the water pump.
 
 The experiment setup models the flow of water through a plant on a lab scale (Figure 2):
+
+<div class="alert alert-block alert-danger">
+Consider "experimental setup" rather than "experiment setup"
+</div>
 
 1. The clay stock is prepared and mixed.
 2. The flow of coagulant, water, and clay are controlled by the pumps.
@@ -182,21 +188,11 @@ The experiment setup models the flow of water through a plant on a lab scale (Fi
 
 The influent turbidity was controlled using a Proportional-Integral-Derivative (PID) controller on ProCoDA. ProCoDA (Process Controller and Data Acquisition) is a process control software created to automate pump control and generate datalogs ([Weber-Shirk, 2016](https://confluence.cornell.edu/display/AGUACLARA/ProCoDA)).
 
-The PID controller uses a feedback response loop to maintain the influent turbidity. The target influent turbidity was set to 100 NTU, and the values of P (Proportional), i (Integral), and D (Derivative) were set to 0.5, 0.25, and 0, respectively. The values were selected using trial and error to optimize the response time of the PID controller.  
-
-<div class="alert alert-block alert-danger">
-Also define ProCoDA acronym
-
-How did you select the NTU, P, i, and D values. If they were assumed then just say from where. Also what do P, i, and D mean?
-</div>
+The PID controller uses a feedback response loop to maintain the influent turbidity. The target influent turbidity was set to 100 NTU, and the values of P (Proportional), i (Integral), and D (Derivative) were set to 0.5, 0.25, and 0, respectively. The values were selected using trial and error to optimize the response time of the PID controller.
 
 ![DiagramSchematic](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/Diagram%20Schematic.jpg?raw=true)
 
 Figure 4: Schematic of experimental setup. The PID controller adjusts the clay pump speed to maintain an influent turbidity of 100 NTU. The water pump and coagulant pump were kept constant at 76 rpm and 20 rpm, respectively. The water pump speed was calculated to achieve an upflow velocity in the sedimentation tube of 2 mm/s (calculations shown in Python code, listed under Manual). The coagulant pump speed was adjusted experimentally to achieve an effluent turbidity of 2 NTU.
-
-<div class="alert alert-block alert-danger">
-How did you know the speeds of 76 rpm and 20 rpm? Consider referencing these calculations (which you should put in the manual)
-</div>
 
 A flow accumulator was added to reduce fluctuations in flow due to the water pump. The flow accumulator consists of a bottle with two holes. Water exits on one side of the bottle and exits at the other side. At the start of an experiment, the flow accumulator bottle is filled with water to reach a water level above the two holes. The bottle is then sealed with a cap to allow the bottle to pressurize with air, thus maintaining the water level at a steady state. Water flows from the water pump to the inflow of the flow accumulator. Water flows out of the floc accumulator to the clay input.
 
@@ -233,11 +229,6 @@ A needle valve was added after the flow accumulator to constrict flow and furthe
     - Kaolinite clay
     - Polyaluminum chloride (PACl) coagulant (70.9 g/L)
 
-
-<div class="alert alert-block alert-danger">
-Consider moving the details of the materials list into the manual section and just keeping basics here. (Not a hard and fast rule though.)
-</div>
-
 ### Experimental Apparatus
 The contact chamber was constructed with a length that is 10 times the diameter to model the dimensions of the turbulent jet stream ([Tsang et al. 2017](https://github.com/AguaClara/contact_chamber/blob/master/contact-chamber-fall.pdf)). The turbulent jet creates eddies that recirculate near the pipe walls. By minimizing contact with the walls of the contact chamber, the amount of coagulant that adheres to the walls instead of the clay particles can be minimized.
 
@@ -248,21 +239,17 @@ Figure 5: The redesigned contact chamber, with a length that is ten times the di
 ### Procedure
 To maintain an upflow velocity in the sedimentation tube of 2 mm/s, the water pump was kept constant at 76 rpm, while the flow rate contributions of the clay and coagulant were assumed to be negligible, due to the low flow rate through the microbore tubing. PID control was used to vary the speed of the clay pump to reach the target influent turbidity of 100 NTU. The clay stock solution was diluted, so that the clay pump speed could be reduced to minimize the flow rate contribution of the clay pump. The concentration of the clay stock was 2 g/L. The coagulant dose was set by manual input to 20 RPM. The concentration of coagulant stock was 0.1418 g/L (see Python code in Manual).
 
-<div class="alert alert-block alert-danger">
-Keep tenses consistent
-
-Where are you getting these values from?
-</div>
-
 Before running an experiment, all valves were opened (raw water, floc weir outlet, and the waste stream outlet). The PID set point was adjusted from the OFF state to ON state, initiating the clay pump to feed the clay stock solution into the system. The water pump and coagulant pump were switched on and set to pre-determined pump speeds. The influent turbidity was allowed to reach its target turbidity of 100 NTU, and changes in the headloss were observed.
+
+<div class="alert alert-block alert-danger">
+Potentially add that the turbidity at the effluent was recorded.
+
+How long were experiments run for?
+</div>
 
 ## Results and Analysis
 ###Red Dye Test
 Prior to running experiments, a red dye test was conducted to observe the fluid dynamics of the coagulant dose in the contact chamber. Red dye was added to the coagulant stock, which tracked the motion of coagulant in the contact chamber.
-
-<div class="alert alert-block alert-danger">
-Did the test have both red dye and coagulant?
-</div>
 
 The red dye test indicated a long residence time and a lot of recirculation within the contact chamber, which may have caused a significant portion of the coagulant to adhere to the walls of the contact chamber, rather than interact with the clay particles in the water. It is hypothesized that the slow flow rate of the coagulant injection into the contact chamber did not allow the coagulant to mix well, which may have contributed to the poor performance of the contact chamber in previous experiments.
 
@@ -274,6 +261,8 @@ What is recirculation?
 Did you observe coagulant sticking to the walls?
 
 Why would the slow flow rate of the coagulant injection affect the mixing?
+
+Were these addressed? - NM
 </div>
 
 ###Experimental Trials
@@ -284,26 +273,21 @@ Figure 6: The influent and effluent turbidimeter after an experiment runtime of 
 
 <div class="alert alert-block alert-danger">
 Is this a continuation of the red dye test or a new test?
+
+Was this addressed? Still unclear. Were these the results before or after the inversion?
 </div>
 
 The experiment was run for 5 hours to observe the formation of the floc blanket in the sedimentation tube. The results differed significantly from the results of previous experiments run in Fall 2017. All parameters were held consistent to the parameters used in the Fall 2017 experiments, except for the longer experiment runtime. It was observed that the effluent turbidity did not decrease sufficiently. Some possible sources of errors were identified, and possible solutions were attempted. The first noticeable issue was the growth of algae on the sides of the sedimentation tube throughout multiple experiments, which may have had an impact on the effluent turbidity. To solve this problem, the sedimentation tube was cleaned with pipe brushes and bleach. Another possible source of error is the lack of a floc blanket in the sedimentation tube. In the Fall 2017 experiments, the sedimentation tube was not cleaned out in between experiments, which allowed a floc blanket to form after repeated trials. In order to standardize results, the sedimentation tube was drained in between each experiment. However, since the influent turbidity very low, at 10 NTU, it was time-consuming to form a new floc blanket for each experiment. Although increasing the turbidity would speed up the floc blanket formation, the team's main goal was to test the process with low turbidity, which represents normal operating conditions in the AguaClara plants. Therefore, the experiment was redesigned.
 
+The scope of the investigation was shifted from lowering the effluent turbidity with low initial turbidity to lowering the headloss occurs across the flocculator. This was because the main purpose of the contact chamber use is to reduce the coagulant particles sticking on to the walls of the flocculator so that it would require cleaning process very often, which is not preferred. After the decision was made, the experimental apparatus was changed from before. The sedimentation tube settler, 1 RPM Waste pump and effluent turbidimeter were discarded and pressure sensor, flow accumulator and needle valve were added to the apparatus. Headloss across the flocculator was used as a measure to quantify the efficiency of the contact chamber instead. Experiments with and without the contact chamber were conducted to identify the difference in headloss before and after the coiled flocculator. The relationship between pressure and experiment time was graphed to determine the slope, which was used to quantify how much headloss increased. Further investigation is required in how long of the experiment would be sufficient to determine the rate of increase. It was hypothesized that the experiments with the contact chamber would have a smaller slope than the experiments without the contact chamber, indicating the the contact chamber decreased the rate of headloss of increase.
 
 <div class="alert alert-block alert-danger">
-Include your hypotheses in the introduction!
+Revise for technical writing.
 
-What results did the Fall 2017 team get? (Not mentioned in the previous work section)
+Great content/logic in the first half
 
-Did algae grow in 5 hours?
-
-Why does a floc blanket form only when it is not cleaned?
-
-Why not increase turbidity is the low turbidity was causing slow floc blanket formation?
-
-There is a lot of good stuff in this seciton but it is mostly results with not enough analysis.
+Make sure you refer to each diagram/figure included so that we get explanation on every figure in the text. They should not stand alone.
 </div>
-
-The scope of the investigation was shifted from lowering the effluent turbidity with low initial turbidity to lowering the headloss occurs across the flocculator. This was because the main purpose of the contact chamber use is to reduce the coagulant particles sticking on to the walls of the flocculator so that it would require cleaning process very often, which is not preferred. After the decision was made, the experimental apparatus was changed from before. The sedimentation tube settler, 1 RPM Waste pump and effluent turbidimeter were discarded and pressure sensor, flow accumulator and needle valve were added to the apparatus. Headloss across the flocculator was used as a measure to quantify the efficiency of the contact chamber instead. Experiments with and without the contact chamber were conducted to identify the difference in headloss before and after the coiled flocculator. The relationship between pressure and experiment time was graphed to determine the slope, which was used to quantify how much headloss increased. Further investigation is required in how long of the experiment would be sufficient to determine the rate of increase. It was hypothesized that the experiments with the contact chamber would have a smaller slope than the experiments without the contact chamber, indicating the the contact chamber decreased the rate of headloss of increase.
 
 ![4-15-2018](https://github.com/AguaClara/contact_chamber/blob/master/Data%20Analysis/Graphs/4-15-2018.png?raw=true)
 Figure 7: Headloss across the flocculator in centimeters of water in experimental setup without the contact chamber. The positive slope indicates that the headloss increased over time. The first trial of the experiment was run for approximately 8.4 hours.
@@ -312,6 +296,10 @@ Figure 7: Headloss across the flocculator in centimeters of water in experimenta
 Figure 8: Headloss across the flocculator in centimeters of water in experimental setup without the contact chamber. The positive slope indicates that the headloss increased over time. The second trial of the experiment was run for approximately 8.4 hours.
 
 The two trials run without the contact chamber showed slopes that differed by a factor of approximately 2. The increase in headloss over time was linear, allowing for a slope to be calculated for each trial. By comparing the slopes with the experiments run with the contact chamber, the rate of increase in headloss can be compared.
+
+<div class="alert alert-block alert-danger">
+This is very vague. how many experiments did you run of each set-up. Did you average the results?
+</div>
 
 There was a slight discrepancy between the two experiments without the contact chamber in pressure difference and slope. The starting pressure difference for the first trial was 30.245 cm, and the starting pressure difference was 26.627 cm for the second trial. The headloss also increased at a faster rate in the first trial, with a slope of 11.263, compared to the second trial, with a slope of 6.682. The cause of the discrepancy could not be determined because both trials were run under the same conditions; the pump speeds were the same and influent turbidity was also the same. The team subsequently decided to run two trials with the contact chamber to determine the range of headloss values that would constitute a significant difference between the control and variable experiments.
 
@@ -323,24 +311,20 @@ Figure 10: Headloss across the flocculator in centimeters of water in experiment
 
 The two experiments with the contact chamber had a relatively smaller slope, at 1.73 and 4.14, compared to the slope without the contact chamber, 11.263 and 6.68. This suggests that the rate of increase in headloss was lower with the contact chamber than without the contact chamber. Further experiments will be conducted to verify these results.
 
+<div class="alert alert-block alert-danger">
+Reconnect these results with whether the contact chamber is helping coagulant stop sticking to the walls of the flocculator.
+</div>
+
 ## Conclusions
 In order to determine the efficiency of the contact chamber, experiments were conducted to measure the change in headloss across the coiled flocculator with and without contact chamber. This was a change from the previous semester, which used comparisons in effluent turbidity to quantify the contact chamber's performance. From the series of experiments conducted, there was a relatively higher slope observed in the experiments without the contact chamber. This indicates that the contact chamber effectively reduces the rate of coagulant building up on the walls of the flocculator. Thus, the results of these experiments support the use of a contact chamber in the AguaClara plants, as it may help reduce the amount of coagulant wasted. Although there needs to be further investigation into how much more effective the contact chamber is, we tentatively conclude that the contact chamber achieves its goal of reducing the amount of coagulant that adheres to the walls of the flocculator.
-
-<div class="alert alert-block alert-danger">
-Do you have enough results to speak to efficiency of sedimentation tank?
-
-This is very vague. What did you conclude about the design of your apparatus? What changes need to be made?
-</div>
 
 ## Future Work
 The contact chamber theoretically increases the probability of collisions between the clay particles and coagulant before the mixture enters the flocculation system. As a result, it is predicted that the contact chamber will allow the clay particles more time to interact with the coagulant, which will decrease the amount of free coagulant that adheres to the walls of the flocculator, and therefore decrease headloss across the flocculator. Since this was observed in the series of experiments, the team will further investigate the difference in the efficiency between different dimensions of contact chamber. There will be comparison between the current team's contact chamber and the Spring 2017 Team's contact chamber. Also, the team will work on verifying results in the experiments conducted by running more trials.
 
 <div class="alert alert-block alert-danger">
-For the next experiments you expect more consistency? but do you expect them to be more favorable in terms of efficiency?
+This section almost reads like the abstract. Be specific here with future goals like what experiments should be done or what theories looked into next. I would really rewrite most of this.
 
-avoid passive voice
-
-This is the first time you bring up headloss across the flocculator. No new ideas in the conclusion or future work sections!
+Remove the word "theoretically" in the first sentence.
 </div>
 
 ## Bibliography
@@ -363,14 +347,14 @@ Tsang, C., Yun, Y., Gassaway, B. Contact Chamber, Fall 2017.
 # Manual
 <!-- The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team. -->
 
+<div class="alert alert-block alert-danger">
+Delete the section descriptions before the final submission.
+</div>
+
 ## Fabrication Details
 <!-- Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions. -->
 The contact chamber was fabricated using a 25.4 cm (10 in) clear polycarbonate pipe. PVC caps were attached on the ends of the pipe using PVC cement to waterproof the contact chamber. Threaded push-to-connect connections were attached to each end of the contact chamber to allow tubing to be attached (Figure 5).
 
-<div class="alert alert-block alert-danger">
-Maybe include a photo?
-</div>
-- photo already included above
 
 <!-- ## Special Components -->
 <!-- If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation. -->
