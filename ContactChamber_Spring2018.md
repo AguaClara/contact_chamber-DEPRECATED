@@ -311,9 +311,32 @@ Figure 10: Headloss across the flocculator in centimeters of water in experiment
 
 The two experiments with the contact chamber had a relatively smaller slope, at 1.73 and 4.14, compared to the slope without the contact chamber, 11.263 and 6.68. This suggests that the rate of increase in headloss was lower with the contact chamber than without the contact chamber. Further experiments will be conducted to verify these results.
 
+![5-1-18-Contact-Chamber](https://github.com/AguaClara/contact_chamber/blob/master/Data%20Analysis/Graphs/5-1-18-Headloss-Contact-Chamber.png?raw=true)
+
+Figure 11: Headloss across the flocculator in centimeters of water in experimental setup with the contact chamber.
+
+![5-2-18-Contact-Chamber](https://github.com/AguaClara/contact_chamber/blob/master/Data%20Analysis/Graphs/5-2-18-Headloss-Contact-Chamber.png?raw=true)
+
+Figure 12: Headloss across the flocculator in centimeters of water in experimental setup with the contact chamber.
+
+In the experiments with the contact chamber, the slope was 0.0003 and 0.0002 (Figures 11 and 12, respectively). The headloss increased 2 to 3 cm from the start of the experiment time to the end.
+
+![5-9-18-Contact-Chamber](https://github.com/AguaClara/contact_chamber/blob/master/Data%20Analysis/Graphs/5-9-18-Headloss-Control.png?raw=true)
+
+Figure 13: Headloss across the flocculator in centimeters of water in experimental setup without the contact chamber.
+
+
+![5-12-18-Contact-Chamber](https://github.com/AguaClara/contact_chamber/blob/master/Data%20Analysis/Graphs/5-12-18-Headloss-Control.png?raw=true)
+
+Figure 14: Headloss across the flocculator in centimeters of water in experimental setup without the contact chamber.
+
+In the control experiments without the contact chamber, the slope was 0.0006 and 0.0004 (Figures 13 and 14, respectively). The headloss increased 4 to 12 cm from the start of the experiment time to the end. 
+
+
 <div class="alert alert-block alert-danger">
 Reconnect these results with whether the contact chamber is helping coagulant stop sticking to the walls of the flocculator.
 </div>
+
 
 ## Conclusions
 In order to determine the efficiency of the contact chamber, experiments were conducted to measure the change in headloss across the coiled flocculator with and without contact chamber. This was a change from the previous semester, which used comparisons in effluent turbidity to quantify the contact chamber's performance. From the series of experiments conducted, there was a relatively higher slope observed in the experiments without the contact chamber. This indicates that the contact chamber effectively reduces the rate of coagulant building up on the walls of the flocculator. Thus, the results of these experiments support the use of a contact chamber in the AguaClara plants, as it may help reduce the amount of coagulant wasted. Although there needs to be further investigation into how much more effective the contact chamber is, we tentatively conclude that the contact chamber achieves its goal of reducing the amount of coagulant that adheres to the walls of the flocculator.
