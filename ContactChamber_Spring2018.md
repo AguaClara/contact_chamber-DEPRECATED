@@ -136,49 +136,21 @@ Figure 5: The contact chamber (redesigned Fall 2017), with a length that is ten 
 ### Procedure
 To maintain an upflow velocity in the sedimentation tube of 2 mm/s, the water pump was kept constant at 76 rpm, while the flow rate contributions of the clay and coagulant were assumed to be negligible, due to the low flow rate through the microbore tubing. PID control was used to vary the speed of the clay pump to reach the target influent turbidity of 100 NTU. The clay stock solution was diluted, so that the clay pump speed could be reduced to minimize the flow rate contribution of the clay pump. The concentration of the clay stock was 2 g/L. The coagulant dose was set by manual input to 20 RPM. The concentration of coagulant stock was 0.1418 g/L (see Python code in Manual).
 
-Before running an experiment, all valves were opened (raw water, floc weir outlet, and the waste stream outlet). The PID set point was adjusted from the OFF state to ON state, initiating the clay pump to feed the clay stock solution into the system. The water pump and coagulant pump were switched on and set to pre-determined pump speeds. The influent turbidity was allowed to reach its target turbidity of 100 NTU, and changes in the headloss were observed. The experiments were run for at least 8 hours, providing enough time for a linear increase in headloss to be observed. 
+Before running an experiment, all valves were opened (raw water, floc weir outlet, and the waste stream outlet). The PID set point was adjusted from the OFF state to ON state, initiating the clay pump to feed the clay stock solution into the system. The water pump and coagulant pump were switched on and set to pre-determined pump speeds. The influent turbidity was allowed to reach its target turbidity of 100 NTU, and changes in the headloss were observed. The experiments were run for at least 8 hours, providing enough time for a linear increase in headloss to be observed.
 
 ## Results and Analysis
 ###Red Dye Test
-Prior to running experiments, a red dye test was conducted to observe the fluid dynamics of the coagulant dose in the contact chamber. Red dye was added to the coagulant stock, which tracked the motion of coagulant in the contact chamber.
+Prior to running experiments, a red dye test was conducted to observe the fluid dynamics of the coagulant dose in the contact chamber. Red dye was added to the coagulant stock, which tracked the motion of coagulant in the contact chamber (Figure 6).
 
-The red dye test indicated a long residence time and a lot of recirculation within the contact chamber, which may have caused a significant portion of the coagulant to adhere to the walls of the contact chamber, rather than interact with the clay particles in the water. It is hypothesized that the slow flow rate of the coagulant injection into the contact chamber did not allow the coagulant to mix well, which may have contributed to the poor performance of the contact chamber in previous experiments.
+The red dye test indicated a long residence time (1.5 min) and a lot of recirculation (indicated by the diffusion of the red dye) within the contact chamber, which may have caused a significant portion of the coagulant to adhere to the walls of the contact chamber, rather than interact with the clay particles in the water. It is hypothesized that the slow flow rate of the coagulant injection into the contact chamber did not allow the coagulant to mix well, which may have contributed to the poor performance of the contact chamber in previous experiments.
 
-<div class="alert alert-block alert-danger">
-How much recirculation was expected and how did you quantify that?
-
-What is recirculation?
-
-Did you observe coagulant sticking to the walls?
-
-Why would the slow flow rate of the coagulant injection affect the mixing?
-
-Were these addressed? - NM
-</div>
+![Red_dye](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/Red_dye_test.jpg?raw=true)
+Figure 6: The red dye test was conducted to observe the fluid dynamics of the coagulant dose within the contact chamber.
 
 ###Experimental Trials
-To reduce the high recirculation in the contact chamber, the team decided to change the orientation of the contact chamber. The contact chamber was previously oriented in the upflow direction, with the coagulant injection and clay mixture flowing into the contact chamber from the bottom. The contact chamber was inverted, and a red dye test was conducted with the coagulant and clay mixture entering the contact chamber from the top.
+At the start of the semester, the efficiency of the contact chamber was quantified by comparing the effluent turbidity with and without the contact chamber, starting with an influent turbidity of 10 NTU to represent low influent turbidity conditions. However, since the influent turbidity very low, at 10 NTU, it was time-consuming to form a new floc blanket for each experiment. Although increasing the turbidity would speed up the floc blanket formation, the team's main goal was to test the process with low turbidity, which represents normal operating conditions in the AguaClara plants. Therefore, the experiment was redesigned.
 
-![5hoursexperiment](https://github.com/AguaClara/contact_chamber/blob/master/Diagrams/Experiment%20Result%20after%205%20hours.png?raw=true)
-Figure 6: The influent and effluent turbidimeter after an experiment runtime of 5 hours.
-
-<div class="alert alert-block alert-danger">
-Is this a continuation of the red dye test or a new test?
-
-Was this addressed? Still unclear. Were these the results before or after the inversion?
-</div>
-
-The experiment was run for 5 hours to observe the formation of the floc blanket in the sedimentation tube. The results differed significantly from the results of previous experiments run in Fall 2017. All parameters were held consistent to the parameters used in the Fall 2017 experiments, except for the longer experiment runtime. It was observed that the effluent turbidity did not decrease sufficiently. Some possible sources of errors were identified, and possible solutions were attempted. The first noticeable issue was the growth of algae on the sides of the sedimentation tube throughout multiple experiments, which may have had an impact on the effluent turbidity. To solve this problem, the sedimentation tube was cleaned with pipe brushes and bleach. Another possible source of error is the lack of a floc blanket in the sedimentation tube. In the Fall 2017 experiments, the sedimentation tube was not cleaned out in between experiments, which allowed a floc blanket to form after repeated trials. In order to standardize results, the sedimentation tube was drained in between each experiment. However, since the influent turbidity very low, at 10 NTU, it was time-consuming to form a new floc blanket for each experiment. Although increasing the turbidity would speed up the floc blanket formation, the team's main goal was to test the process with low turbidity, which represents normal operating conditions in the AguaClara plants. Therefore, the experiment was redesigned.
-
-The scope of the investigation was shifted from lowering the effluent turbidity with low initial turbidity to lowering the headloss occurs across the flocculator. This was because the main purpose of the contact chamber use is to reduce the coagulant particles sticking on to the walls of the flocculator so that it would require cleaning process very often, which is not preferred. After the decision was made, the experimental apparatus was changed from before. The sedimentation tube settler, 1 RPM Waste pump and effluent turbidimeter were discarded and pressure sensor, flow accumulator and needle valve were added to the apparatus. Headloss across the flocculator was used as a measure to quantify the efficiency of the contact chamber instead. Experiments with and without the contact chamber were conducted to identify the difference in headloss before and after the coiled flocculator. The relationship between pressure and experiment time was graphed to determine the slope, which was used to quantify how much headloss increased. Further investigation is required in how long of the experiment would be sufficient to determine the rate of increase. It was hypothesized that the experiments with the contact chamber would have a smaller slope than the experiments without the contact chamber, indicating the the contact chamber decreased the rate of headloss of increase.
-
-<div class="alert alert-block alert-danger">
-Revise for technical writing.
-
-Great content/logic in the first half
-
-Make sure you refer to each diagram/figure included so that we get explanation on every figure in the text. They should not stand alone.
-</div>
+The scope of the investigation was shifted from lowering the effluent turbidity with low initial turbidity to lowering the headloss occurs across the flocculator. This was because the ultimate goal of the contact chamber is to reduce the coagulant particles sticking on to the walls of the flocculator, as it currently requires frequent cleaning, which is not preferred. In light of these changes, the experimental apparatus was also altered. The sedimentation tube settler, 1 RPM waste pump and effluent turbidimeter were removed and a pressure sensor, flow accumulator and needle valve were added. Headloss across the flocculator was used as a measure to quantify the efficiency of the contact chamber instead. Experiments with and without the contact chamber were conducted to identify the difference in headloss before and after the flocculator. The relationship between pressure and experiment time was graphed to determine the slope, which was used to quantify how much headloss increased. It was hypothesized that the experiments with the contact chamber would have a lower slope than the experiments without the contact chamber, indicating the the contact chamber was effective in decreasing the rate of headloss increase.
 
 ![4-15-2018](https://github.com/AguaClara/contact_chamber/blob/master/Data%20Analysis/Graphs/4-15-2018.png?raw=true)
 Figure 7: Headloss across the flocculator in centimeters of water in experimental setup without the contact chamber. The positive slope indicates that the headloss increased over time. The first trial of the experiment was run for approximately 8.4 hours.
